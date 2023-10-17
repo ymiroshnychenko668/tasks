@@ -1,0 +1,3 @@
+SELECT ats.available_next_statuses_id,ts.name 
+FROM task_status_available_next_statuses ats 
+join task_status ts ON ts.id = ats.available_next_statuses_id ;

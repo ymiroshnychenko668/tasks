@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "CurrentTask",
+    "pageId": "Create task",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "Task",
+        "value": "undefined"
+      },
+      {
+        "name": "NextStatuses",
+        "value": "undefined"
+      },
+      {
+        "name": "TaskStatuses",
+        "value": "undefined"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Create task_CurrentTask",
+  "deleted": false,
+  "gitSyncId": "65155a937e237828359f5ecb_6524e786a702a670f4184195"
+}

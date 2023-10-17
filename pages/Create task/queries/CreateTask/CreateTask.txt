@@ -1,0 +1,13 @@
+{{
+{
+	name: TaskName.text,
+	description: Description.text,
+	start: StartDate.selectedDate,
+	end: EndDate.selectedDate,
+	assignee: Assignee.selectedOptionValue,
+	reporter: Reporter.selectedOptionValue,
+	parent: Parent.selectedOptionValue,
+	taskType: 1
+	
+}
+}}

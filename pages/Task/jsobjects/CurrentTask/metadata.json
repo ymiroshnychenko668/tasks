@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "CurrentTask",
+    "pageId": "Task",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "Task",
+        "value": "undefined"
+      },
+      {
+        "name": "NextStatuses",
+        "value": "undefined"
+      },
+      {
+        "name": "TaskStatuses",
+        "value": "undefined"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Task_CurrentTask",
+  "deleted": false,
+  "gitSyncId": "65155a937e237828359f5ecb_651f9f0e8215b225bdaf053d"
+}

@@ -1,0 +1,108 @@
+{
+  "unpublishedPage": {
+    "name": "Task",
+    "slug": "task",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 870,
+          "containerStyle": "none",
+          "snapRows": 72,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 86,
+          "minHeight": 740,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Task_ListOfPrimaryAudio",
+              "name": "ListOfPrimaryAudio",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "this.params.taskId+'/taskAudio/primaryAudio/'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Task_TaskById",
+              "name": "TaskById",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Task_AllAvailableNextStatuses",
+              "name": "AllAvailableNextStatuses",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Task_Users",
+              "name": "Users",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Task_CurrentTask.getTask",
+              "name": "CurrentTask.getTask",
+              "collectionId": "Task_CurrentTask",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  if (_.isUndefined(CurrentTask.Task)) {\n    CurrentTask.Task = GetTask.run(task => {\n      CurrentTask.Task = task;\n      CurrentTask.getAudio(task.id);\n    }, err => {\n      showAlert('Error loading task. Please try again later.');\n    });\n  }\n  return CurrentTask.Task;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Task_GetTask",
+              "name": "GetTask",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.user",
+                "appsmith.URL.queryParams.id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Task",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "65155a937e237828359f5ecb_651ec9208215b225bdaf0505"
+}
