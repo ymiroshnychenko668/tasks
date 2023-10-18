@@ -1,21 +1,20 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 32.800000000000004,
-    "widgetName": "ButtonGroup1",
+    "mobileBottomRow": 28.000000000000004,
+    "widgetName": "ButtonGroup1CopyCopy",
     "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "groupButtons.groupButtontntugg18xo.onClick"}],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 10.4,
-    "bottomRow": 14.4,
+    "topRow": 5.2,
+    "bottomRow": 9.2,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
-            "onClick": "{{navigateTo('Task', {\n  id: currentItem.id,\n\tback: 'My tasks'\n}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Task', {\n  \"id\": currentItem.id\n}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "eye-open",
@@ -29,7 +28,7 @@
             "isVisible": true
         },
         "groupButton3": {
-            "buttonType": "SIMPLE",
+            "buttonType": "MENU",
             "iconName": "more",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -71,13 +70,12 @@
                     "isDisabled": false
                 },
                 "menuItemuhvj9kme5m": {
-                    "backgroundColor": "#fef9c3",
-                    "onClick": "{{navigateTo('Task', {\n  \"id\": List1.currentItemsView\n}, 'SAME_WINDOW');}}",
+                    "backgroundColor": "#dcfce7",
                     "widgetId": "n4p09zp2h9",
                     "iconColor": "{{appsmith.theme.colors.backgroundColor}}",
                     "index": 3,
                     "id": "menuItemuhvj9kme5m",
-                    "label": "Postpone",
+                    "label": "Today",
                     "isDisabled": false,
                     "isVisible": true
                 }
@@ -121,10 +119,7 @@
     "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 5.98681640625,
-    "dynamicTriggerPathList": [
-        {"key": "groupButtons.groupButton3.menuItems.menuItemuhvj9kme5m.onClick"},
-        {"key": "groupButtons.groupButtontntugg18xo.onClick"}
-    ],
+    "dynamicTriggerPathList": [{"key": "groupButtons.groupButtontntugg18xo.onClick"}],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -139,16 +134,16 @@
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 64,
-    "dynamicHeight": "FIXED",
-    "widgetId": "31sab8uuvr",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "widgetId": "ez9pcb9g6b",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "z1rx8arcwz",
+    "parentId": "ybqgp66fp8",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 28.800000000000004,
+    "mobileTopRow": 24.000000000000004,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
