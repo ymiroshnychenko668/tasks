@@ -11,6 +11,10 @@
     {
       "id": "Create task",
       "isDefault": false
+    },
+    {
+      "id": "Camera",
+      "isDefault": false
     }
   ],
   "viewMode": false,

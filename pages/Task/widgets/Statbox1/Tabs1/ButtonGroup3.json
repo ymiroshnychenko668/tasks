@@ -77,7 +77,7 @@
             "isDisabled": false
         },
         "groupButton7mnoc6ugmz": {
-            "onClick": "{{showModal('VideoCamera');}}",
+            "onClick": "{{navigateTo('Camera', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "mobile-video",
