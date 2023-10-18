@@ -21,8 +21,9 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "url"}],
     "key": "sya096i0ch",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 61.63401109057301,
     "dynamicHeight": "FIXED",
     "widgetId": "icxq7n7nm5",
     "minWidth": 450,
@@ -36,5 +37,6 @@
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 6,
-    "autoPlay": false
+    "autoPlay": false,
+    "alignment": "start"
 }

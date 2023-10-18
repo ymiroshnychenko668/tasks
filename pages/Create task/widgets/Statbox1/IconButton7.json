@@ -18,15 +18,16 @@
     "animateLoading": true,
     "parentColumnSpace": 6.53125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 56,
+    "leftColumn": 61.70609318996416,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "key": "zajmckrpfq",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "iconName": "search",
     "widgetId": "fghagsu5nm",
     "minWidth": 50,
@@ -40,5 +41,6 @@
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 58,
-    "buttonVariant": "TERTIARY"
+    "buttonVariant": "TERTIARY",
+    "alignment": "start"
 }

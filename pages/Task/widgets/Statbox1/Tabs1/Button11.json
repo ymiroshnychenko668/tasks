@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 5.90625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 35,
+    "leftColumn": 55.756781193490056,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,8 +28,9 @@
     "text": "Add comment",
     "isDisabled": false,
     "key": "56mwve4d5h",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "iconName": "comment",
     "widgetId": "7ip0jr5ncp",
@@ -48,5 +49,6 @@
     "mobileLeftColumn": 46,
     "buttonVariant": "SECONDARY",
     "iconAlign": "left",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

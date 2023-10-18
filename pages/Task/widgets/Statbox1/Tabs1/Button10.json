@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button10",
-    "onClick": "{{\nnavigateTo('Create task', {\n  back: 'Task',\n\tid:CurrentTask.Task.id\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{\nnavigateTo('Create task', {\n  back: 'Task',\n\tparentId:CurrentTask.Task.id\n}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 5.90625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 36,
+    "leftColumn": 55.44575045207957,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,6 +29,7 @@
     "text": "Create subtask",
     "isDisabled": false,
     "key": "56mwve4d5h",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
@@ -49,5 +50,6 @@
     "mobileLeftColumn": 46,
     "buttonVariant": "SECONDARY",
     "iconAlign": "left",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

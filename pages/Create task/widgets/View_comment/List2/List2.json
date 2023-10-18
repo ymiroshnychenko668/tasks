@@ -3,7 +3,7 @@
     "requiresFlatWidgetChildren": true,
     "isCanvas": true,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 10,
+    "topRow": 10.4,
     "pageSize": 1,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -37,6 +37,7 @@
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "key": "f5ba5i2h37",
         "isDeprecated": false,
         "rightColumn": 155.8125,
@@ -52,8 +53,12 @@
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
-        "flexLayers": []
+        "flexLayers": [{"children": [{
+            "id": "nhsazp2yv7",
+            "align": "center"
+        }]}]
     }],
+    "flexVerticalAlignment": "end",
     "itemBackgroundColor": "#FFFFFF",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
@@ -71,6 +76,7 @@
         "prefixMetaWidgetId",
         "metaWidgetId"
     ],
+    "alignment": "start",
     "mobileBottomRow": 50,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
@@ -93,7 +99,7 @@
         }
     ],
     "displayName": "List",
-    "bottomRow": 44,
+    "bottomRow": 44.4,
     "parentRowSpace": 10,
     "hideCard": false,
     "templateBottomRow": 16,
@@ -106,7 +112,7 @@
     "key": "etzgfz5q7q",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "widgetId": "ribslz3jh8",
     "minWidth": 450,
     "parentId": "246vbmzpmb",

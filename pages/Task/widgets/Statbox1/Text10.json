@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 22,
+    "leftColumn": 28.559139784946236,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,10 +29,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Hours logged",
     "key": "1aswwufyld",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 31,
+    "rightColumn": 42.83870967741935,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0k82z5pyjl",
     "minWidth": 450,
     "isVisible": true,
@@ -54,5 +55,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 15,
     "fontSize": "0.875rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0.307421875,
     "boxShadow": "none",
     "mobileBottomRow": 8,
     "widgetName": "Image1",
+    "widthInPercentage": 0.307421875,
     "displayName": "Image",
     "iconSVG": "/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
     "topRow": 0,
@@ -19,9 +21,10 @@
     "leftColumn": 0,
     "defaultImage": "https://assets.appsmith.com/widgets/default.png",
     "key": "qo6u99i8hg",
+    "flexVerticalAlignment": "end",
     "image": "{{currentItem.img}}",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 57,
     "objectFit": "cover",
     "widgetId": "sxsozits8t",
     "isVisible": true,
@@ -33,7 +36,9 @@
     "mobileTopRow": 0,
     "maxZoomLevel": 1,
     "enableDownload": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "enableRotation": false
+    "enableRotation": false,
+    "alignment": "start"
 }

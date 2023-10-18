@@ -7,8 +7,8 @@
     "displayName": "Stats Box",
     "iconSVG": "/static/media/icon.182a90a0c52d97288bf067cc9c4186d4.svg",
     "searchTags": ["statbox"],
-    "topRow": 5,
-    "bottomRow": 70,
+    "topRow": 5.2,
+    "bottomRow": 84.80000000000001,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
@@ -26,16 +26,18 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 650,
+        "bottomRow": 796.0000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 140,
+        "minHeight": 450,
         "mobileRightColumn": 150.5625,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "key": "yxk578ti2y",
         "isDeprecated": false,
         "rightColumn": 150.5625,
@@ -51,11 +53,53 @@
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "z3gltfq2up",
+                    "align": "start"
+                },
+                {
+                    "id": "fghagsu5nm",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "ta6nngo5ve",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "zwrw27fpaq",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "w2fnvc8lio",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "tw96fgmnw3",
+                    "align": "start"
+                },
+                {
+                    "id": "6s6miq03pc",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "223xb45b5z",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "5o2uq0mykc",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "positioning": "fixed",
     "key": "uprk16ktgh",
+    "flexVerticalAlignment": "end",
     "backgroundColor": "white",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -73,5 +117,6 @@
     "mobileLeftColumn": 10,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 70,
+    "alignment": "start",
     "minDynamicHeight": 14
 }

@@ -9,8 +9,8 @@
         "sound recorder",
         "voice recorder"
     ],
-    "topRow": 14,
-    "bottomRow": 22,
+    "topRow": 23.400000000000002,
+    "bottomRow": 30.400000000000002,
     "parentRowSpace": 10,
     "type": "AUDIO_RECORDER_WIDGET",
     "hideCard": false,
@@ -25,9 +25,10 @@
     ],
     "isDisabled": false,
     "key": "wzr0flzrtv",
+    "flexVerticalAlignment": "end",
     "onRecordingComplete": "{{showModal('OverwriteAudioConfirmation');}}",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "widgetId": "0czhnv9qo7",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
@@ -41,5 +42,6 @@
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 49,
-    "iconColor": "white"
+    "iconColor": "white",
+    "alignment": "start"
 }

@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
-    "topRow": 4,
+    "topRow": 5.2,
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
@@ -15,6 +15,7 @@
     "labelStyle": "",
     "inputType": "MULTI_LINE_TEXT",
     "isDisabled": false,
+    "flexVerticalAlignment": "end",
     "isRequired": false,
     "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -28,6 +29,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 12,
+    "alignment": "start",
     "mobileBottomRow": 7,
     "widgetName": "NameInput",
     "dynamicPropertyPathList": [{"key": "onTextChanged"}],
@@ -38,7 +40,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 12,
+    "bottomRow": 13.2,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,

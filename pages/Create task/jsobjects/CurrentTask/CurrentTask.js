@@ -43,7 +43,17 @@ export default {
 			showAlert('Cant create task, please try again later');
 		});
 		
+	},
+	
+	getParentSubtasks(){
+		if(!_.isUndefined(appsmith.URL.queryParams.parentId)){
+	return GetTaskById.run({taskId:appsmith.URL.queryParams.parentId}).catch((err)=>{showAlert('Error getting parent task. Please, try again later')});
+}else{
+	return getMyTasks.run();
+}
 	}
+	
+	
 	
 	
 }

@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 9,
+    "mobileBottomRow": 28.000000000000004,
     "widgetName": "ButtonGroup1Copy",
     "isCanvas": false,
     "displayName": "Button Group",
@@ -9,8 +9,8 @@
         "click",
         "submit"
     ],
-    "topRow": 9,
-    "bottomRow": 13,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
@@ -116,7 +116,7 @@
     },
     "type": "BUTTON_GROUP_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 26,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 5.98681640625,
     "dynamicTriggerPathList": [{"key": "groupButtons.groupButtontntugg18xo.onClick"}],
@@ -130,6 +130,7 @@
         {"key": "groupButtons.groupButton3.menuItems.menuItemuhvj9kme5m.iconColor"}
     ],
     "key": "j1r8pacinz",
+    "flexVerticalAlignment": "end",
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -142,10 +143,11 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 5,
+    "mobileTopRow": 24.000000000000004,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 2,
-    "buttonVariant": "PRIMARY"
+    "mobileLeftColumn": 0,
+    "buttonVariant": "PRIMARY",
+    "alignment": "start"
 }

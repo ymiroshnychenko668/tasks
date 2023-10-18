@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0,
     "boxShadow": "none",
     "mobileBottomRow": 0,
     "widgetName": "LogTime",
+    "widthInPercentage": 0,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
@@ -10,8 +12,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 0,
-    "bottomRow": 240,
+    "topRow": 254.6,
+    "bottomRow": 274.29999999999995,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -19,24 +21,26 @@
     "mobileRightColumn": 0,
     "animateLoading": true,
     "parentColumnSpace": 1,
-    "leftColumn": 0,
+    "leftColumn": 32,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "mobileBottomRow": 0,
         "widgetName": "Canvas15",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 240,
+        "bottomRow": 190,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 0,
+        "minHeight": 190,
         "mobileRightColumn": 0,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "isDisabled": false,
         "key": "qiyf4zm4te",
         "isDeprecated": false,
@@ -52,12 +56,47 @@
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "rr1ak2lja2",
+                    "align": "start"
+                },
+                {
+                    "id": "u6sb90v5sr",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "wbf811272g",
+                    "align": "start"
+                },
+                {
+                    "id": "nreqeqcytj",
+                    "align": "start"
+                },
+                {
+                    "id": "4v9129m5h3",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "5rrxgyxrsx",
+                    "align": "end"
+                },
+                {
+                    "id": "fb08v17oke",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "key": "zf9b0drujg",
-    "height": 240,
+    "height": 199,
     "isDeprecated": false,
-    "rightColumn": 0,
+    "rightColumn": 32,
     "detachFromLayout": true,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "9h6eibhaqr",
@@ -69,9 +108,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 0,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "width": 456,
-    "minDynamicHeight": 24
+    "minDynamicHeight": 8
 }

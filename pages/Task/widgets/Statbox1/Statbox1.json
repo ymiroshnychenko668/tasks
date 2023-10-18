@@ -7,8 +7,8 @@
     "displayName": "Stats Box",
     "iconSVG": "/static/media/icon.182a90a0c52d97288bf067cc9c4186d4.svg",
     "searchTags": ["statbox"],
-    "topRow": 5,
-    "bottomRow": 87,
+    "topRow": 5.2,
+    "bottomRow": 120.39999999999998,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
@@ -26,16 +26,18 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 820,
+        "bottomRow": 1151.9999999999998,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 140,
+        "minHeight": 820,
         "mobileRightColumn": 150.5625,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "key": "yxk578ti2y",
         "isDeprecated": false,
         "rightColumn": 150.5625,
@@ -51,11 +53,43 @@
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "4q944mzrye",
+                    "align": "start"
+                },
+                {
+                    "id": "1wr93yrckl",
+                    "align": "start"
+                },
+                {
+                    "id": "0k82z5pyjl",
+                    "align": "start"
+                },
+                {
+                    "id": "qbvwehp5ar",
+                    "align": "start"
+                },
+                {
+                    "id": "6n1p5t8m39",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "t38pghx16g",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "awjbhpclec",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "positioning": "fixed",
     "key": "uprk16ktgh",
+    "flexVerticalAlignment": "end",
     "backgroundColor": "white",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -73,5 +107,6 @@
     "mobileLeftColumn": 10,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 87,
+    "alignment": "start",
     "minDynamicHeight": 14
 }

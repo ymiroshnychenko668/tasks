@@ -17,7 +17,7 @@
     "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 56,
+    "leftColumn": 57.4610472541507,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -25,8 +25,9 @@
     "iconSize": 24,
     "isDisabled": false,
     "key": "kr9hutlepp",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "iconName": "cross",
     "widgetId": "4j0f8mcsyn",
     "minWidth": 50,
@@ -40,5 +41,6 @@
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 58,
-    "buttonVariant": "TERTIARY"
+    "buttonVariant": "TERTIARY",
+    "alignment": "end"
 }

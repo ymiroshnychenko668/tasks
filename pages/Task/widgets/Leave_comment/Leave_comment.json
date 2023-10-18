@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0,
     "boxShadow": "none",
     "mobileBottomRow": 0,
     "widgetName": "Leave_comment",
+    "widthInPercentage": 0,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
@@ -10,8 +12,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 0,
-    "bottomRow": 520,
+    "topRow": 178.59999999999997,
+    "bottomRow": 253.39999999999998,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -21,7 +23,7 @@
     "animateLoading": true,
     "parentColumnSpace": 1,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 32,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "mobileBottomRow": 0,
@@ -34,11 +36,13 @@
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 750,
+        "minHeight": 700,
         "mobileRightColumn": 0,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "isDisabled": false,
         "key": "f5ba5i2h37",
         "isDeprecated": false,
@@ -54,14 +58,47 @@
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "j5zpmslxdp",
+                    "align": "start"
+                },
+                {
+                    "id": "4j0f8mcsyn",
+                    "align": "end"
+                }
+            ]},
+            {"children": [{
+                "id": "uyiokfpmvk",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "wq4nswvame",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "p57hptn69n",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "zy2lz2alku",
+                    "align": "end"
+                },
+                {
+                    "id": "xjwfkim83h",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "key": "5oh2gwxu3s",
     "height": 750,
     "isDeprecated": false,
-    "rightColumn": 0,
+    "rightColumn": 32,
     "detachFromLayout": true,
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "t7dhb4wlm8",
     "canOutsideClickClose": true,
     "canEscapeKeyClose": true,
@@ -71,9 +108,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 0,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "width": 401.5,
-    "minDynamicHeight": 24
+    "minDynamicHeight": 8
 }

@@ -13,17 +13,78 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 870,
+          "bottomRow": 1203.9999999999998,
           "containerStyle": "none",
           "snapRows": 72,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 86,
-          "minHeight": 740,
+          "minHeight": 890,
+          "useAutoLayout": true,
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "t2x6yjmy5f",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "xxytrvjeav",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "868cjbhof5",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "t7dhb4wlm8",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "9h6eibhaqr",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "m3sk7f780g",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "zb7n3srpnd",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [
           [

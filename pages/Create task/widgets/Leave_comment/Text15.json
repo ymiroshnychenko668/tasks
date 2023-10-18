@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.0859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,8 +29,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Comment",
     "key": "jmx9hh9p97",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 17,
+    "rightColumn": 57.4610472541507,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "j5zpmslxdp",
@@ -54,5 +55,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 4,
     "fontSize": "1rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

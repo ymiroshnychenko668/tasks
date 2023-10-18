@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 5.90625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 43,
+    "leftColumn": 57.056057866184446,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,6 +28,7 @@
     "text": "Log work",
     "isDisabled": false,
     "key": "5rlokaqlqe",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
@@ -48,5 +49,6 @@
     "mobileLeftColumn": 45,
     "buttonVariant": "SECONDARY",
     "iconAlign": "left",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

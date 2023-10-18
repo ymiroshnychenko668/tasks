@@ -17,7 +17,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -27,8 +27,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "View comment",
     "key": "tofnmpju8s",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 57.868263473053894,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "t4iv3upzdp",
@@ -50,5 +51,6 @@
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "fontSize": "1.25rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

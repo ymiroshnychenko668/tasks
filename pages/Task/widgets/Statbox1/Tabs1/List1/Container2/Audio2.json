@@ -9,17 +9,18 @@
         "wave",
         "player"
     ],
-    "topRow": 4,
-    "bottomRow": 8,
+    "topRow": 5.2,
+    "bottomRow": 9.2,
     "parentRowSpace": 10,
     "type": "AUDIO_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 43,
     "animateLoading": true,
     "parentColumnSpace": 5.46875,
-    "leftColumn": 15,
+    "leftColumn": 16.485740570377185,
     "dynamicBindingPathList": [],
     "key": "wl5rn070h7",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
@@ -35,5 +36,6 @@
     "mobileTopRow": 4,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 15,
-    "autoPlay": false
+    "autoPlay": false,
+    "alignment": "start"
 }

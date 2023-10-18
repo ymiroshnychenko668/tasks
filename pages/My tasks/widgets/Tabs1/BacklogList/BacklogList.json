@@ -39,6 +39,7 @@
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "key": "z4tkvojjdk",
         "isDeprecated": false,
         "rightColumn": 156.75,
@@ -54,8 +55,12 @@
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
-        "flexLayers": []
+        "flexLayers": [{"children": [{
+            "id": "q252l8vb1n",
+            "align": "center"
+        }]}]
     }],
+    "flexVerticalAlignment": "end",
     "itemBackgroundColor": "#FFFFFF",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
@@ -74,7 +79,8 @@
         "prefixMetaWidgetId",
         "metaWidgetId"
     ],
-    "mobileBottomRow": 46,
+    "alignment": "start",
+    "mobileBottomRow": 40,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "BacklogList",
@@ -84,7 +90,7 @@
     "parentRowSpace": 10,
     "hideCard": false,
     "templateBottomRow": 16,
-    "mobileRightColumn": 25,
+    "mobileRightColumn": 64,
     "mainContainerId": "q252l8vb1n",
     "primaryKeys": "{{BacklogList.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
     "parentColumnSpace": 6.53125,
@@ -98,9 +104,9 @@
     "minWidth": 450,
     "parentId": "vy7ufkbk2w",
     "renderMode": "CANVAS",
-    "mobileTopRow": 6,
+    "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "originalTopRow": 50,
-    "mobileLeftColumn": 1,
+    "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"
 }

@@ -26,7 +26,7 @@
     "animateLoading": true,
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [{"key": "configureMenuItems.config.onClick"}],
-    "leftColumn": 41,
+    "leftColumn": 57.118279569892465,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"},
@@ -37,8 +37,9 @@
     "isDisabled": false,
     "sourceData": "{{CurrentTask.getAvailableNextStatus.data}}",
     "key": "7vw8widji7",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63.99999999999999,
     "menuVariant": "PRIMARY",
     "widgetId": "6n1p5t8m39",
     "menuItems": {
@@ -75,9 +76,11 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 0,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
     "menuItemsSource": "DYNAMIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "start"
 }

@@ -30,10 +30,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{currentItem.name}}",
     "key": "tofnmpju8s",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 32,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "y4jeqoj5qs",
     "minWidth": 450,
     "isVisible": true,
@@ -54,5 +55,6 @@
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
     "textStyle": "HEADING",
+    "alignment": "start",
     "minDynamicHeight": 4
 }
