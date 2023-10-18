@@ -6,8 +6,8 @@
     "displayName": "Stats Box",
     "iconSVG": "/static/media/icon.182a90a0c52d97288bf067cc9c4186d4.svg",
     "searchTags": ["statbox"],
-    "topRow": 4.8,
-    "bottomRow": 109.8,
+    "topRow": 5,
+    "bottomRow": 110,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
@@ -64,9 +64,9 @@
     "tags": ["Display"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 4.8,
+    "originalTopRow": 5,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 109.79999999999927,
+    "originalBottomRow": 110,
     "minDynamicHeight": 14
 }

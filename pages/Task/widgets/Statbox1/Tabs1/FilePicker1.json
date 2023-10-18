@@ -7,7 +7,7 @@
     "iconSVG": "/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
     "searchTags": ["upload"],
     "topRow": 0,
-    "bottomRow": 4,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "allowedFileTypes": [
         "image/*",
@@ -18,7 +18,7 @@
     "mobileRightColumn": 7,
     "animateLoading": true,
     "parentColumnSpace": 6.21875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onFilesSelected"}],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
@@ -26,6 +26,7 @@
     ],
     "isDisabled": false,
     "key": "hjmscqnoew",
+    "onFilesSelected": "{{showModal('Leave_comment');}}",
     "isRequired": false,
     "isDeprecated": false,
     "rightColumn": 21,
@@ -48,5 +49,5 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "files": [],
-    "maxNumFiles": 1
+    "maxNumFiles": "10"
 }

@@ -10,10 +10,11 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 4,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton3": {
+            "onClick": "{{showModal('Leave_comment');}}",
             "buttonType": "SIMPLE",
             "iconName": "comment",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -62,6 +63,7 @@
             "isDisabled": false
         },
         "groupButton1": {
+            "onClick": "{{showModal('Modal1');}}",
             "buttonType": "SIMPLE",
             "iconName": "camera",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -80,7 +82,10 @@
     "mobileRightColumn": 30,
     "animateLoading": true,
     "parentColumnSpace": 6.21875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButton1.onClick"}
+    ],
     "leftColumn": 21,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
