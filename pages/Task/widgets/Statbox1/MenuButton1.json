@@ -1,7 +1,7 @@
 {
     "isCompact": false,
     "boxShadow": "none",
-    "mobileBottomRow": 23.200000000000003,
+    "mobileBottomRow": 28.800000000000004,
     "widgetName": "MenuButton1",
     "configureMenuItems": {
         "label": "Configure menu items",
@@ -17,16 +17,16 @@
     "dynamicPropertyPathList": [{"key": "configureMenuItems.config.onClick"}],
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 0,
-    "bottomRow": 4,
+    "topRow": 14.399999999999999,
+    "bottomRow": 18.4,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 54.10832232496698,
+    "mobileRightColumn": 43.74311926605505,
     "animateLoading": true,
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [{"key": "configureMenuItems.config.onClick"}],
-    "leftColumn": 70.78341013824885,
+    "leftColumn": 46.58503401360544,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"},
@@ -35,11 +35,11 @@
         {"key": "sourceData"}
     ],
     "isDisabled": false,
-    "sourceData": "{{CurrentTask.getAvailableNextStatus.data}}",
+    "sourceData": "{{NextStatusList.data}}",
     "key": "7vw8widji7",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 88.47926267281107,
+    "rightColumn": 64,
     "menuVariant": "PRIMARY",
     "widgetId": "6n1p5t8m39",
     "menuItems": {
@@ -75,12 +75,12 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 19.200000000000003,
+    "mobileTopRow": 24.800000000000004,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
+    "mobileLeftColumn": 20.256880733944953,
     "menuItemsSource": "DYNAMIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
     "placement": "CENTER",
-    "alignment": "start"
+    "alignment": "center"
 }

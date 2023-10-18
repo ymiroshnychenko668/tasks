@@ -23,21 +23,10 @@ export default {
 		return ListOfPrimaryAudio.run(()=>{},(err)=>{showAlert('Error loading task data, please')},{taskId:id})
 	},
 	
-	getAvailableNextStatus(){
-		var t = this.getTask();
-		if(_.isUndefined(this.NextStatuses)||_.isEmpty(this.NextStatuses)){
-			if(_.isUndefined(t.status_id)){
-				this.NextStatuses =  AvailableNextStatus.run({id:t?.status.id})	
-			}else{
-				this.NextStatuses = AllAvailableNextStatuses.data;
-			}
-		}
-		return this.NextStatuses;
-	},
+	
 	updateTaskProperty(params){
 		updateTicketProperty.run((task)=>{
 			this.Task = task;
-			console.log(task)
 		},(err)=>{
 			"Error updating "+params.name
 		},params);
@@ -69,8 +58,15 @@ export default {
 			closeModal('LogTime')
 		});
 	},
-	deleteTimelog(item){
-		
+	deleteTimelog(id){
+			updateTicketProperty.run((task)=>{
+			this.Task = task;
+		},(err)=>{
+			return "Error timelog deletion ";
+		},{
+				taskId:this.Task.id,
+				timeLogId:id
+			});
 	},
 	
 	deleteAudio(item){

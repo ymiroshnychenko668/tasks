@@ -27,6 +27,7 @@
         {"key": "boxShadow"}
     ],
     "children": [{
+        "mobileBottomRow": 108,
         "widgetName": "Canvas22",
         "displayName": "Canvas",
         "topRow": 0,

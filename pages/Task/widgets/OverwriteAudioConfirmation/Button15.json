@@ -16,7 +16,7 @@
     "bottomRow": 9.2,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 54.489019033674964,
+    "mobileRightColumn": 56.169944925255706,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 32,

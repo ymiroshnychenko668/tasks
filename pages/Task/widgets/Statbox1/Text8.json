@@ -23,15 +23,16 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Task type",
+    "text": "{{'Task type: '+CurrentTask.Task?.taskType?.name}}",
     "key": "1aswwufyld",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 17.695852534562214,
+    "rightColumn": 32,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "4q944mzrye",

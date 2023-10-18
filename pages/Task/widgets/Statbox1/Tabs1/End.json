@@ -28,7 +28,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "closeOnSelection": true,
     "alignment": "start",
-    "mobileBottomRow": 29.400000000000002,
+    "mobileBottomRow": 28.799999999999997,
     "widgetName": "End",
     "minDate": "{{new Date()}}",
     "dynamicPropertyPathList": [
@@ -57,7 +57,7 @@
     "parentId": "tgi4sqc0dw",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 23.400000000000002,
+    "mobileTopRow": 22.2,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,

@@ -4,7 +4,7 @@
     "isCanvas": true,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
     "topRow": 5.2,
-    "pageSize": 3,
+    "pageSize": 6,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,

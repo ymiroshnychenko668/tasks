@@ -21,7 +21,7 @@
       "body": "SELECT ats.available_next_statuses_id,ts.name \nFROM task_status_available_next_statuses ats \njoin task_status ts ON ts.id = ats.available_next_statuses_id ;",
       "selfReferencingDataPaths": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],

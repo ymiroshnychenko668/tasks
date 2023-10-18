@@ -101,7 +101,7 @@
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton1.onClick"}
     ],
-    "leftColumn": 19.2,
+    "leftColumn": 18.86977886977887,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
@@ -112,7 +112,7 @@
     "flexVerticalAlignment": "end",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 78.4,
+    "rightColumn": 77.05159705159704,
     "dynamicHeight": "FIXED",
     "widgetId": "vn6cjlqnp8",
     "minWidth": 450,

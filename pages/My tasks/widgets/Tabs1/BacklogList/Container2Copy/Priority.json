@@ -1,6 +1,7 @@
 {
     "mobileBottomRow": 23.200000000000003,
     "widgetName": "Priority",
+    "dynamicPropertyPathList": [{"key": "textColor"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -23,22 +24,25 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"},
+        {"key": "textColor"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hight",
+    "text": "{{currentItem.severity.name}}",
     "key": "2x0h8lzf57",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
+    "backgroundColor": "",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "76ehxns3ev",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "{{currentItem.severity.color}}",
     "version": 1,
     "parentId": "fbq3lk2756",
     "tags": [

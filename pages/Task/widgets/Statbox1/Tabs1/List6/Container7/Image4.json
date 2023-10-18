@@ -17,7 +17,7 @@
         {"key": "image"},
         {"key": "borderRadius"}
     ],
-    "leftColumn": 19.200000000000003,
+    "leftColumn": 19.97051597051597,
     "defaultImage": "https://assets.appsmith.com/widgets/default.png",
     "key": "ga76p47z4n",
     "image": "{{currentItem.img}}",
@@ -36,7 +36,7 @@
     "enableDownload": false,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 18.974874371859293,
+    "mobileLeftColumn": 2.8395904436860064,
     "enableRotation": false,
     "alignment": "end"
 }

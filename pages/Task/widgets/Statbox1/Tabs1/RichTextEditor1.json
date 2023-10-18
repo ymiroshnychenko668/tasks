@@ -25,7 +25,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 36,
     "alignment": "start",
-    "mobileBottomRow": 108.80000000000001,
+    "mobileBottomRow": 108.2,
     "widgetName": "RichTextEditor1",
     "displayName": "Rich Text Editor",
     "searchTags": [
@@ -48,7 +48,7 @@
     "parentId": "tgi4sqc0dw",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 78.80000000000001,
+    "mobileTopRow": 78.2,
     "responsiveBehavior": "fill",
     "originalTopRow": 20,
     "mobileLeftColumn": 0,

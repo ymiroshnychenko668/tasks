@@ -51,7 +51,7 @@ export default {
 				showAlert('Error getting parent task. Please, try again later')
 				return 'Parent with id '+appsmith.URL.queryParams.parentId+' not found';
 			}).then((task)=>{
-				return 'Subtask for:'+task.id+'-'+task.name;
+				return 'Subtask for: '+task.id+'-'+task.name;
 			});
 		}else{
 		

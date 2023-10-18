@@ -3,7 +3,10 @@
     "mobileBottomRow": 5,
     "widgetName": "ButtonGroup2",
     "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "groupButtons.groupButton2.onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"}
+    ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -34,10 +37,10 @@
             "menuItems": {
                 "menuItem1": {
                     "backgroundColor": "#FFFFFF",
-                    "onClick": "",
+                    "onClick": "{{\nBacklog.run();\nToday.run();\n}}",
                     "widgetId": "",
                     "index": 0,
-                    "label": "First Option",
+                    "label": "Refresh",
                     "id": "menuItem1",
                     "isVisible": true,
                     "isDisabled": false
@@ -95,7 +98,10 @@
     "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 6.84375,
-    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton2.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"}
+    ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "groupButtons.groupButton2.buttonColor"},

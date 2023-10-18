@@ -1,7 +1,7 @@
 {
     "mobileWidthInPercentage": 0,
     "boxShadow": "none",
-    "mobileBottomRow": 229.89999999999998,
+    "mobileBottomRow": 292,
     "widgetName": "LogTime",
     "widthInPercentage": 0,
     "isCanvas": true,
@@ -12,8 +12,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 254.6,
-    "bottomRow": 274.29999999999995,
+    "topRow": 262.4,
+    "bottomRow": 282.09999999999997,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -107,7 +107,7 @@
     "tags": ["Layout"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 193.89999999999998,
+    "mobileTopRow": 256,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 32,

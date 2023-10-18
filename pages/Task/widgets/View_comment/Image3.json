@@ -11,7 +11,7 @@
     "parentRowSpace": 10,
     "type": "IMAGE_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 53.461077844311376,
+    "mobileRightColumn": 55.55105795768169,
     "animateLoading": true,
     "parentColumnSpace": 6.4921875,
     "imageShape": "RECTANGLE",
@@ -36,7 +36,7 @@
     "enableDownload": false,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 10.538922155688624,
+    "mobileLeftColumn": 8.448942042318308,
     "enableRotation": false,
     "alignment": "center"
 }

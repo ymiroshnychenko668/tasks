@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hight",
+    "text": "{{currentItem.severity?.name}}",
     "key": "2x0h8lzf57",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,

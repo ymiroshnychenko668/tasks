@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 19.9953125,
+    "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
@@ -31,7 +31,7 @@
     "text": "{{currentItem.name}}",
     "key": "74xvtha7tx",
     "isDeprecated": false,
-    "rightColumn": 19.200000000000003,
+    "rightColumn": 19.97051597051597,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "pihubcjf8z",

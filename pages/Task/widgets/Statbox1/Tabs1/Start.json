@@ -28,7 +28,7 @@
     "originalBottomRow": 9,
     "closeOnSelection": true,
     "alignment": "start",
-    "mobileBottomRow": 22.6,
+    "mobileBottomRow": 21.4,
     "widgetName": "Start",
     "minDate": "1920-12-31T18:30:00.000Z",
     "dynamicPropertyPathList": [
@@ -56,7 +56,7 @@
     "parentId": "tgi4sqc0dw",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 15.600000000000001,
+    "mobileTopRow": 14.799999999999997,
     "responsiveBehavior": "fill",
     "originalTopRow": 5,
     "mobileLeftColumn": 0,

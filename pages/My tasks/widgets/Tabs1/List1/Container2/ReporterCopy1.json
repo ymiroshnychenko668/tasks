@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.reporter_id}}",
+    "text": "{{currentItem.reporter?.name}}",
     "key": "2x0h8lzf57",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,

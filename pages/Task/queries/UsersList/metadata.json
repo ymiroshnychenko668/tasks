@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "UsersList",
     "datasource": {
       "name": "CrowApi",
       "pluginId": "restapi-plugin",
@@ -13,32 +13,19 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "My tasks",
+    "pageId": "Task",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
+      "path": "/usersList",
       "headers": [
         {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
+          "key": "Authorization",
+          "value": "{{appsmith.user}}"
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
-        }
-      ],
-      "body": "",
+      "queryParameters": [],
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -51,17 +38,25 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[0].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.user"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-10-18T16:06:10Z"
   },
-  "id": "My tasks_Api1",
+  "id": "Task_UsersList",
   "deleted": false,
-  "gitSyncId": "65155a937e237828359f5ecb_65240241a702a670f418416e"
+  "gitSyncId": "65155a937e237828359f5ecb_65300272a702a670f418430a"
 }

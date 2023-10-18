@@ -17,7 +17,7 @@
     "type": "CAMERA_WIDGET",
     "hideCard": false,
     "mode": "CAMERA",
-    "mobileRightColumn": 54.886334610472545,
+    "mobileRightColumn": 55.55105795768169,
     "parentColumnSpace": 6.0859375,
     "leftColumn": 9.113665389527458,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
@@ -38,7 +38,7 @@
     "responsiveBehavior": "hug",
     "originalTopRow": 19,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 9.113665389527458,
+    "mobileLeftColumn": 8.448942042318308,
     "originalBottomRow": 64,
     "alignment": "center"
 }

@@ -78,7 +78,7 @@
         "metaWidgetId"
     ],
     "alignment": "start",
-    "mobileBottomRow": 78,
+    "mobileBottomRow": 77.4,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List4",
@@ -102,7 +102,7 @@
     "minWidth": 450,
     "parentId": "tgi4sqc0dw",
     "renderMode": "CANVAS",
-    "mobileTopRow": 38.00000000000001,
+    "mobileTopRow": 37.4,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"

@@ -6,10 +6,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 2707,
+          "mobileBottomRow": 3328.000000000001,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1203.9999999999998,
+          "bottomRow": 3148.999999999999,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -103,19 +103,23 @@
           ],
           [
             {
-              "id": "Task_AllAvailableNextStatuses",
-              "name": "AllAvailableNextStatuses",
+              "id": "Task_SeverityList",
+              "name": "SeverityList",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.user"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Task_Users",
-              "name": "Users",
+              "id": "Task_UsersList",
+              "name": "UsersList",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.user"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -139,6 +143,19 @@
               "jsonPathKeys": [
                 "appsmith.user",
                 "appsmith.URL.queryParams.id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Task_NextStatusList",
+              "name": "NextStatusList",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.user",
+                "CurrentTask.getTask().status.id"
               ],
               "timeoutInMillisecond": 10000
             }

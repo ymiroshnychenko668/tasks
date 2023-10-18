@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 88.5,
+    "mobileBottomRow": 150.6,
     "widgetName": "Statbox1",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -8,7 +8,7 @@
     "iconSVG": "/static/media/icon.182a90a0c52d97288bf067cc9c4186d4.svg",
     "searchTags": ["statbox"],
     "topRow": 5.2,
-    "bottomRow": 120.39999999999998,
+    "bottomRow": 128.2,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
@@ -22,11 +22,11 @@
         {"key": "boxShadow"}
     ],
     "children": [{
-        "mobileBottomRow": 837,
+        "mobileBottomRow": 1457.9999999999998,
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 1151.9999999999998,
+        "bottomRow": 1230,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -60,19 +60,7 @@
                     "align": "start"
                 },
                 {
-                    "id": "1wr93yrckl",
-                    "align": "start"
-                },
-                {
                     "id": "0k82z5pyjl",
-                    "align": "start"
-                },
-                {
-                    "id": "qbvwehp5ar",
-                    "align": "start"
-                },
-                {
-                    "id": "6n1p5t8m39",
                     "align": "start"
                 }
             ]},
@@ -80,6 +68,16 @@
                 "id": "t38pghx16g",
                 "align": "start"
             }]},
+            {"children": [
+                {
+                    "id": "e7cyvkg5ym",
+                    "align": "center"
+                },
+                {
+                    "id": "6n1p5t8m39",
+                    "align": "center"
+                }
+            ]},
             {"children": [{
                 "id": "awjbhpclec",
                 "align": "start"
