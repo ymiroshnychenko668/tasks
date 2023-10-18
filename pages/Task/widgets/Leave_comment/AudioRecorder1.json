@@ -7,8 +7,8 @@
         "sound recorder",
         "voice recorder"
     ],
-    "topRow": 17.400000000000002,
-    "bottomRow": 24.400000000000002,
+    "topRow": 18.400000000002915,
+    "bottomRow": 25.400000000002912,
     "parentRowSpace": 10,
     "type": "AUDIO_RECORDER_WIDGET",
     "hideCard": false,
@@ -32,8 +32,8 @@
     "tags": ["External"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 12,
+    "originalTopRow": 18.40000000000146,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 19,
+    "originalBottomRow": 25.400000000001455,
     "iconColor": "white"
 }

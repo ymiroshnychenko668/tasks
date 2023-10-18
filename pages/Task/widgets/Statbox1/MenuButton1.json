@@ -1,6 +1,6 @@
 {
     "isCompact": false,
-    "boxShadow": "none",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "widgetName": "MenuButton1",
     "configureMenuItems": {
         "label": "Configure menu items",
@@ -16,15 +16,15 @@
     "dynamicPropertyPathList": [{"key": "configureMenuItems.config.onClick"}],
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 24.800000000000004,
-    "bottomRow": 28.800000000000004,
+    "topRow": 16,
+    "bottomRow": 20,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
     "animateLoading": true,
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [{"key": "configureMenuItems.config.onClick"}],
-    "leftColumn": 20,
+    "leftColumn": 42,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"},
@@ -36,7 +36,7 @@
     "sourceData": "{{NextStatusList.data}}",
     "key": "7vw8widji7",
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 64,
     "menuVariant": "PRIMARY",
     "widgetId": "6n1p5t8m39",
     "menuItems": {
@@ -72,8 +72,10 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 16,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "menuItemsSource": "DYNAMIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "originalBottomRow": 20,
     "placement": "CENTER"
 }

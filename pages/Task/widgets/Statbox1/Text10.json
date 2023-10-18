@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 4.8,
-    "bottomRow": 8.8,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 34,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{'Hours logged: '+CurrentTask.Task.totalHoursLogged+'h'}}",
+    "text": "{{'Hours logged: '+CurrentTask.getTask()?.totalHoursLogged+'h'}}",
     "key": "1aswwufyld",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -45,10 +45,10 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 11,
+    "originalTopRow": 4.8,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
+    "originalBottomRow": 8.799999999999272,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

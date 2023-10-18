@@ -9,8 +9,8 @@
         "photo",
         "video recorder"
     ],
-    "topRow": 25.200000000000003,
-    "bottomRow": 58.2,
+    "topRow": 26.200000000002916,
+    "bottomRow": 59.200000000002184,
     "parentRowSpace": 10,
     "type": "CAMERA_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "tags": ["External"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 19,
+    "originalTopRow": 26.20000000000146,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 64
+    "originalBottomRow": 59.20000000000073
 }

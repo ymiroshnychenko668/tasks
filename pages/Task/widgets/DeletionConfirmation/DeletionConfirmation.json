@@ -11,7 +11,7 @@
         "notification"
     ],
     "topRow": 292.8,
-    "bottomRow": 308.40000000000003,
+    "bottomRow": 448.79999999998546,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -26,7 +26,7 @@
         "widgetName": "Canvas19",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 110,
+        "bottomRow": 150,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
@@ -55,7 +55,7 @@
         "mobileLeftColumn": 0
     }],
     "key": "e6cifiubd9",
-    "height": 158,
+    "height": 155.99999999998545,
     "isDeprecated": false,
     "rightColumn": 44,
     "detachFromLayout": true,

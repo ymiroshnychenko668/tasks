@@ -15,7 +15,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 498,
+          "bottomRow": 760,
           "containerStyle": "none",
           "snapRows": 72,
           "parentRowSpace": 1,
@@ -35,6 +35,16 @@
             {
               "id": "My tasks_Backlog",
               "name": "Backlog",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.user"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "My tasks_InProgress",
+              "name": "InProgress",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Tasks",
+    "pageId": "My tasks",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "My tasks_Tasks",
+  "deleted": false,
+  "gitSyncId": "65155a937e237828359f5ecb_6530118ba702a670f4184325"
+}
