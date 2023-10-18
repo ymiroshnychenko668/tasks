@@ -15,7 +15,8 @@
         {"key": "primaryKeys"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "listData"}
     ],
     "leftColumn": 0,
     "enhancements": true,
@@ -76,27 +77,11 @@
         "metaWidgetId"
     ],
     "alignment": "start",
-    "mobileBottomRow": 44,
+    "mobileBottomRow": 44.8,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List5",
-    "listData": [
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Blue",
-            "id": "001"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Green",
-            "id": "002"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Red",
-            "id": "003"
-        }
-    ],
+    "listData": "{{CurrentTask.Task.hoursLogged}}",
     "displayName": "List",
     "bottomRow": 45.2,
     "parentRowSpace": 10,
@@ -106,6 +91,7 @@
     "mainContainerId": "le4t03yuty",
     "primaryKeys": "{{List5.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
     "parentColumnSpace": 17.03125,
+    "dynamicTriggerPathList": [],
     "gridType": "vertical",
     "key": "2ozbrnqahx",
     "backgroundColor": "transparent",
@@ -115,7 +101,7 @@
     "minWidth": 450,
     "parentId": "xmu3dww0yl",
     "renderMode": "CANVAS",
-    "mobileTopRow": 4,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"

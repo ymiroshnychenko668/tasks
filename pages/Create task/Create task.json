@@ -6,27 +6,29 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 2753.578125,
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 2519.9999999999995,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 740,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 848.0000000000001,
           "containerStyle": "none",
           "snapRows": 72,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 86,
-          "minHeight": 740,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
@@ -81,13 +83,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create task_CurrentTask.getParentSubtasks",
-              "name": "CurrentTask.getParentSubtasks",
+              "id": "Create task_CurrentTask.getParentForSubtask",
+              "name": "CurrentTask.getParentForSubtask",
               "collectionId": "Create task_CurrentTask",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "function () {\n  if (!_.isUndefined(appsmith.URL.queryParams.parentId)) {\n    return GetTaskById.run({\n      taskId: appsmith.URL.queryParams.parentId\n    }).catch(err => {\n      showAlert('Error getting parent task. Please, try again later');\n    });\n  } else {\n    return getMyTasks.run();\n  }\n}"
+                "function () {\n  if (!_.isUndefined(appsmith.URL.queryParams.parentId)) {\n    return GetTaskById.run({\n      taskId: appsmith.URL.queryParams.parentId\n    }).catch(err => {\n      showAlert('Error getting parent task. Please, try again later');\n      return 'Parent with id ' + appsmith.URL.queryParams.parentId + ' not found';\n    }).then(task => {\n      return 'Subtask for:' + task.id + '-' + task.name;\n    });\n  } else {\n    let myPromise = new Promise(function (myResolve, myReject) {\n      let data;\n      myResolve();\n      myReject();\n    });\n    return myPromise.then(obj => {\n      return \"Task creation\";\n    });\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             },

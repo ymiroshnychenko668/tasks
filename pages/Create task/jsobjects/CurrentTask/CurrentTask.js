@@ -45,12 +45,28 @@ export default {
 		
 	},
 	
-	getParentSubtasks(){
+	getParentForSubtask(){
 		if(!_.isUndefined(appsmith.URL.queryParams.parentId)){
-	return GetTaskById.run({taskId:appsmith.URL.queryParams.parentId}).catch((err)=>{showAlert('Error getting parent task. Please, try again later')});
-}else{
-	return getMyTasks.run();
-}
+			return GetTaskById.run({taskId:appsmith.URL.queryParams.parentId}).catch((err)=>{
+				showAlert('Error getting parent task. Please, try again later')
+				return 'Parent with id '+appsmith.URL.queryParams.parentId+' not found';
+			}).then((task)=>{
+				return 'Subtask for:'+task.id+'-'+task.name;
+			});
+		}else{
+		
+			let myPromise = new Promise(function(myResolve, myReject) {
+			// "Producing Code" (May take some time)
+			let data;
+  		myResolve(); // when successful
+  		myReject();  // when error
+			});
+			return myPromise.then((obj)=>{
+				return "Task creation";
+			});
+		}
+		
+		
 	}
 	
 	

@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 28,
+    "mobileBottomRow": 37.2,
     "widgetName": "TaskAudio",
     "dynamicPropertyPathList": [],
     "displayName": "Audio Recorder",
@@ -38,10 +38,10 @@
     "tags": ["External"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 21,
+    "mobileTopRow": 30.200000000000003,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 49,
+    "mobileLeftColumn": 0,
     "iconColor": "white",
     "alignment": "start"
 }

@@ -1,1 +1,0 @@
-SELECT * FROM task where id={{appsmith.URL.queryParams.id}};

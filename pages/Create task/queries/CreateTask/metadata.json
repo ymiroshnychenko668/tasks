@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{\n{\n\tname: TaskName.text,\n\tdescription: Description.text,\n\tstart: StartDate.selectedDate,\n\tend: EndDate.selectedDate,\n\tassignee: Assignee.selectedOptionValue,\n\treporter: Reporter.selectedOptionValue,\n\tparent: Parent.selectedOptionValue,\n\ttaskType: 1\n\t\n}\n}}",
+      "body": "{{\n{\n\tname: TaskName.text,\n\tdescription: Description.text,\n\tstart: StartDate.selectedDate,\n\tend: EndDate.selectedDate,\n\tassignee: Assignee.selectedOptionValue,\n\treporter: Reporter.selectedOptionValue,\n\tparent: !_.isUndefined(appsmith.URL.queryParams.parentId)?appsmith.URL.queryParams.parentId:null,\n\ttaskType: 1\n}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -58,7 +58,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\n{\n\tname: TaskName.text,\n\tdescription: Description.text,\n\tstart: StartDate.selectedDate,\n\tend: EndDate.selectedDate,\n\tassignee: Assignee.selectedOptionValue,\n\treporter: Reporter.selectedOptionValue,\n\tparent: Parent.selectedOptionValue,\n\ttaskType: 1\n\t\n}\n",
+      "\n{\n\tname: TaskName.text,\n\tdescription: Description.text,\n\tstart: StartDate.selectedDate,\n\tend: EndDate.selectedDate,\n\tassignee: Assignee.selectedOptionValue,\n\treporter: Reporter.selectedOptionValue,\n\tparent: !_.isUndefined(appsmith.URL.queryParams.parentId)?appsmith.URL.queryParams.parentId:null,\n\ttaskType: 1\n}\n",
       "appsmith.user"
     ],
     "userSetOnLoad": false,

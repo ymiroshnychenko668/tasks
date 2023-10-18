@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 8.8,
     "widgetName": "IconButton6",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -36,10 +36,10 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 58,
+    "mobileLeftColumn": 53.48665297741273,
     "buttonVariant": "TERTIARY",
     "alignment": "end"
 }

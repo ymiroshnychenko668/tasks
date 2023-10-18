@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 29,
+    "mobileBottomRow": 81.7,
     "borderColor": "#E0DEDE",
     "widgetName": "Tabs1",
     "isCanvas": true,
@@ -12,7 +12,7 @@
     "type": "TABS_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "mobileRightColumn": 24,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 6.84375,
     "dynamicTriggerPathList": [],
@@ -25,7 +25,7 @@
     "children": [
         {
             "tabId": "tab1",
-            "mobileBottomRow": 150,
+            "mobileBottomRow": 1108,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
             "bottomRow": 947.9999999999998,
@@ -94,7 +94,7 @@
         },
         {
             "tabId": "tab2",
-            "mobileBottomRow": 150,
+            "mobileBottomRow": 468,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
             "bottomRow": 947.9999999999998,
@@ -141,7 +141,7 @@
         },
         {
             "tabId": "tablueddfklex",
-            "mobileBottomRow": 361,
+            "mobileBottomRow": 469,
             "widgetName": "Canvas14",
             "displayName": "Canvas",
             "topRow": 1,
@@ -174,14 +174,20 @@
             "mobileTopRow": 1,
             "responsiveBehavior": "fill",
             "mobileLeftColumn": 0,
-            "flexLayers": [{"children": [{
-                "id": "0w7tnvl903",
-                "align": "end"
-            }]}]
+            "flexLayers": [
+                {"children": [{
+                    "id": "0w7tnvl903",
+                    "align": "end"
+                }]},
+                {"children": [{
+                    "id": "htinhzfn7z",
+                    "align": "start"
+                }]}
+            ]
         },
         {
             "tabId": "tab3tiueb3tjz",
-            "mobileBottomRow": 491,
+            "mobileBottomRow": 469,
             "widgetName": "Canvas16",
             "displayName": "Canvas",
             "topRow": 1,
@@ -280,7 +286,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "renderMode": "CANVAS",
-    "mobileTopRow": 14,
+    "mobileTopRow": 31.800000000000004,
     "responsiveBehavior": "fill",
     "originalTopRow": 12,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",

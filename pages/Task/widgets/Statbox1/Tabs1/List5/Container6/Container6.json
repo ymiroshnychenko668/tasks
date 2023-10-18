@@ -27,16 +27,15 @@
         {"key": "boxShadow"}
     ],
     "children": [{
-        "mobileBottomRow": null,
+        "mobileBottomRow": 156,
         "widgetName": "Canvas24",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 130,
+        "bottomRow": 112.00000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": null,
         "mobileRightColumn": 64,
         "useAutoLayout": true,
         "parentColumnSpace": 1,
@@ -61,16 +60,16 @@
         "flexLayers": [
             {"children": [
                 {
-                    "id": "uapslxnw5a",
+                    "id": "js4tdtbq5d",
                     "align": "start"
                 },
                 {
-                    "id": "bof1zsvxzq",
-                    "align": "end"
+                    "id": "uapslxnw5a",
+                    "align": "start"
                 }
             ]},
             {"children": [{
-                "id": "js4tdtbq5d",
+                "id": "kf5ufe1c52",
                 "align": "start"
             }]}
         ]

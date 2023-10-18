@@ -6,27 +6,29 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 2707,
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 1203.9999999999998,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 890,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 1203.9999999999998,
           "containerStyle": "none",
           "snapRows": 72,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 86,
-          "minHeight": 890,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
@@ -95,16 +97,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "this.params.taskId+'/taskAudio/primaryAudio/'"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Task_TaskById",
-              "name": "TaskById",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.id"
               ],
               "timeoutInMillisecond": 10000
             }

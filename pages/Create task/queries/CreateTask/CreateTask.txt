@@ -6,8 +6,7 @@
 	end: EndDate.selectedDate,
 	assignee: Assignee.selectedOptionValue,
 	reporter: Reporter.selectedOptionValue,
-	parent: Parent.selectedOptionValue,
+	parent: !_.isUndefined(appsmith.URL.queryParams.parentId)?appsmith.URL.queryParams.parentId:null,
 	taskType: 1
-	
 }
 }}

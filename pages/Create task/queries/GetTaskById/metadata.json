@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/getTasksByIds",
+      "path": "/getTaskById",
       "headers": [
         {
           "key": "Authorization",
@@ -28,8 +28,8 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "ids",
-          "value": "{{this.params.taskId}}"
+          "key": "id",
+          "value": "4"
         }
       ],
       "bodyFormData": [],
@@ -48,20 +48,13 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
-      },
-      {
-        "key": "path"
-      },
-      {
-        "key": "queryParameters[0].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.user",
-      "this.params.taskId"
+      "appsmith.user"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -16,11 +16,11 @@
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 62,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 5.90625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 55.756781193490056,
+    "leftColumn": 42.49764150943396,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -46,7 +46,7 @@
     "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 46,
+    "mobileLeftColumn": 45.800947867298575,
     "buttonVariant": "SECONDARY",
     "iconAlign": "left",
     "placement": "CENTER",

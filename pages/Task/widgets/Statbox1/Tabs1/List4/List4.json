@@ -4,7 +4,7 @@
     "isCanvas": true,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
     "topRow": 31.6,
-    "pageSize": 2,
+    "pageSize": 4,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,
@@ -78,7 +78,7 @@
         "metaWidgetId"
     ],
     "alignment": "start",
-    "mobileBottomRow": 60,
+    "mobileBottomRow": 78,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List4",
@@ -88,7 +88,7 @@
     "parentRowSpace": 10,
     "hideCard": false,
     "templateBottomRow": 16,
-    "mobileRightColumn": 26,
+    "mobileRightColumn": 64,
     "mainContainerId": "yuq3b5ydza",
     "primaryKeys": "{{List4.listData.map((currentItem, currentIndex) => currentItem[\"fileName\"] )}}",
     "parentColumnSpace": 6.21875,
@@ -102,8 +102,8 @@
     "minWidth": 450,
     "parentId": "tgi4sqc0dw",
     "renderMode": "CANVAS",
-    "mobileTopRow": 20,
+    "mobileTopRow": 38.00000000000001,
     "responsiveBehavior": "fill",
-    "mobileLeftColumn": 2,
+    "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"
 }

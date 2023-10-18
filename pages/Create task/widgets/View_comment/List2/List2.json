@@ -77,7 +77,7 @@
         "metaWidgetId"
     ],
     "alignment": "start",
-    "mobileBottomRow": 50,
+    "mobileBottomRow": 54.400000000000006,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List2",
@@ -103,7 +103,7 @@
     "parentRowSpace": 10,
     "hideCard": false,
     "templateBottomRow": 16,
-    "mobileRightColumn": 35,
+    "mobileRightColumn": 64,
     "mainContainerId": "nhsazp2yv7",
     "primaryKeys": "{{List2.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
     "parentColumnSpace": 6.4921875,
@@ -117,8 +117,8 @@
     "minWidth": 450,
     "parentId": "246vbmzpmb",
     "renderMode": "CANVAS",
-    "mobileTopRow": 10,
+    "mobileTopRow": 14.400000000000002,
     "responsiveBehavior": "fill",
-    "mobileLeftColumn": 11,
+    "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"
 }

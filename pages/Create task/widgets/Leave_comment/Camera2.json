@@ -1,7 +1,7 @@
 {
     "mobileWidthInPercentage": 0.2867431640625,
     "boxShadow": "none",
-    "mobileBottomRow": 45,
+    "mobileBottomRow": 58.2,
     "widgetName": "Camera2",
     "widthInPercentage": 0.2867431640625,
     "isCanvas": false,
@@ -17,7 +17,7 @@
     "type": "CAMERA_WIDGET",
     "hideCard": false,
     "mode": "CAMERA",
-    "mobileRightColumn": 26,
+    "mobileRightColumn": 54.886334610472545,
     "parentColumnSpace": 6.0859375,
     "leftColumn": 5.5,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
@@ -34,11 +34,11 @@
     "tags": ["External"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 12,
+    "mobileTopRow": 25.200000000000003,
     "responsiveBehavior": "hug",
     "originalTopRow": 19,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 1,
+    "mobileLeftColumn": 9.113665389527458,
     "originalBottomRow": 64,
     "alignment": "center"
 }

@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 27,
+    "mobileBottomRow": 86.3578125,
     "widgetName": "Statbox1",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -8,12 +8,12 @@
     "iconSVG": "/static/media/icon.182a90a0c52d97288bf067cc9c4186d4.svg",
     "searchTags": ["statbox"],
     "topRow": 5.2,
-    "bottomRow": 84.80000000000001,
+    "bottomRow": 82.2,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "mobileRightColumn": 32,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 6.84375,
     "leftColumn": 0,
@@ -22,11 +22,11 @@
         {"key": "boxShadow"}
     ],
     "children": [{
-        "mobileBottomRow": 140,
+        "mobileBottomRow": 815.578125,
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 796.0000000000001,
+        "bottomRow": 770,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -54,16 +54,10 @@
         "responsiveBehavior": "fill",
         "mobileLeftColumn": 0,
         "flexLayers": [
-            {"children": [
-                {
-                    "id": "z3gltfq2up",
-                    "align": "start"
-                },
-                {
-                    "id": "fghagsu5nm",
-                    "align": "start"
-                }
-            ]},
+            {"children": [{
+                "id": "6mqy2h4slv",
+                "align": "start"
+            }]},
             {"children": [{
                 "id": "ta6nngo5ve",
                 "align": "start"
@@ -110,11 +104,11 @@
     "tags": ["Display"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 13,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "fill",
     "originalTopRow": 5,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 10,
+    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 70,
     "alignment": "start",
