@@ -15,10 +15,13 @@
     "parentRowSpace": 10,
     "type": "CAMERA_WIDGET",
     "hideCard": false,
-    "mode": "CAMERA",
+    "mode": "VIDEO",
     "mobileRightColumn": 41,
     "parentColumnSpace": 6.4921875,
-    "dynamicTriggerPathList": [{"key": "onImageSave"}],
+    "dynamicTriggerPathList": [
+        {"key": "onImageSave"},
+        {"key": "onVideoSave"}
+    ],
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
@@ -26,6 +29,7 @@
     "isMirrored": true,
     "isDeprecated": false,
     "rightColumn": 64,
+    "onVideoSave": "{{closeModal('VideoCamera');}}",
     "widgetId": "z3fy63l2xk",
     "isVisible": true,
     "version": 1,

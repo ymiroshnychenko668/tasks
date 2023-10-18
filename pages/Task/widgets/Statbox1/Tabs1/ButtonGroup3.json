@@ -55,7 +55,7 @@
                     "isDisabled": false
                 }
             },
-            "index": 1,
+            "index": 2,
             "label": "Comment",
             "id": "groupButton3",
             "placement": "CENTER",
@@ -75,6 +75,20 @@
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
+        },
+        "groupButton7mnoc6ugmz": {
+            "onClick": "{{showModal('VideoCamera');}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "mobile-video",
+            "widgetId": "cglxf767wm",
+            "menuItems": {},
+            "index": 1,
+            "id": "groupButton7mnoc6ugmz",
+            "label": "Video",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
         }
     },
     "type": "BUTTON_GROUP_WIDGET",
@@ -84,13 +98,15 @@
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton3.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton7mnoc6ugmz.onClick"}
     ],
-    "leftColumn": 21,
+    "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"}
+        {"key": "groupButtons.groupButton3.buttonColor"},
+        {"key": "groupButtons.groupButton7mnoc6ugmz.buttonColor"}
     ],
     "key": "uzub36c2g8",
     "orientation": "horizontal",

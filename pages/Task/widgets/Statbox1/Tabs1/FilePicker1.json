@@ -29,7 +29,7 @@
     "onFilesSelected": "{{showModal('Leave_comment');}}",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 21,
+    "rightColumn": 18,
     "isDefaultClickDisabled": true,
     "widgetId": "gy3j52stoo",
     "minWidth": 120,
