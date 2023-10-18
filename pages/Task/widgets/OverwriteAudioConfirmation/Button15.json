@@ -1,7 +1,6 @@
 {
     "resetFormOnClick": false,
     "boxShadow": "none",
-    "mobileBottomRow": 13.600000000000001,
     "widgetName": "Button15",
     "onClick": "{{CurrentTask.saveAudio();\ncloseModal('OverwriteAudioConfirmation');\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -12,11 +11,10 @@
         "click",
         "submit"
     ],
-    "topRow": 5.2,
-    "bottomRow": 9.2,
+    "topRow": 9.600000000000001,
+    "bottomRow": 13.600000000000001,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 56.169944925255706,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 32,
@@ -27,9 +25,8 @@
     "text": "Yes",
     "isDisabled": false,
     "key": "knvl6fcukg",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 54.489019033674964,
+    "rightColumn": 56,
     "isDefaultClickDisabled": true,
     "widgetId": "zbxxyntfi5",
     "buttonStyle": "PRIMARY_BUTTON",
@@ -41,12 +38,8 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 9.600000000000001,
-    "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 32,
     "buttonVariant": "PRIMARY",
-    "placement": "CENTER",
-    "alignment": "center"
+    "placement": "CENTER"
 }

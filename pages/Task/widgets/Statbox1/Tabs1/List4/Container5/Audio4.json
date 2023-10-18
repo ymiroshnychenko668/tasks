@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 4,
     "widgetName": "Audio4",
     "displayName": "Audio",
     "iconSVG": "/static/media/icon.90965be2578a5c1c8e2996b65e5b6988.svg",
@@ -14,16 +13,14 @@
     "parentRowSpace": 10,
     "type": "AUDIO_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 3.15771484375,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "url"}],
     "key": "sya096i0ch",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 57.71007371007371,
+    "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "widgetId": "icxq7n7nm5",
     "minWidth": 450,
@@ -34,9 +31,5 @@
     "tags": ["Media"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
-    "autoPlay": false,
-    "alignment": "start"
+    "autoPlay": false
 }

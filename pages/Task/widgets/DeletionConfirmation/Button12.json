@@ -1,7 +1,6 @@
 {
     "resetFormOnClick": false,
     "boxShadow": "none",
-    "mobileBottomRow": 13.600000000000001,
     "widgetName": "Button12",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -11,14 +10,13 @@
         "click",
         "submit"
     ],
-    "topRow": 5.2,
-    "bottomRow": 9.2,
+    "topRow": 9.600000000000001,
+    "bottomRow": 13.600000000000001,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 32,
     "animateLoading": true,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0.4599589322381945,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -26,7 +24,6 @@
     "text": "Cancel",
     "isDisabled": false,
     "key": "56mwve4d5h",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 32,
     "isDefaultClickDisabled": true,
@@ -40,12 +37,8 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 9.600000000000001,
-    "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0.4599589322381945,
     "buttonVariant": "SECONDARY",
-    "placement": "CENTER",
-    "alignment": "center"
+    "placement": "CENTER"
 }

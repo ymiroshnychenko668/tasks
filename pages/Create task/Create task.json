@@ -8,77 +8,26 @@
         "dsl": {
           "mobileBottomRow": 2753.578125,
           "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 2519.9999999999995,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 740,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 2519.9999999999995,
           "containerStyle": "none",
           "snapRows": 72,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
           "version": 86,
+          "minHeight": 740,
           "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "ept0p6esvf",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "xxytrvjeav",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "868cjbhof5",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "t7dhb4wlm8",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "9h6eibhaqr",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "m3sk7f780g",
-                  "align": "center"
-                }
-              ]
-            }
-          ]
+          "useAutoLayout": false,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [
           [

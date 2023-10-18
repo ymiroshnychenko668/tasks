@@ -1,13 +1,42 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "currentItemsView": "{{[]}}",
+    "triggeredItemView": "{{{}}}",
+    "widgetName": "List2",
     "requiresFlatWidgetChildren": true,
     "isCanvas": true,
+    "listData": [
+        {
+            "img": "https://assets.appsmith.com/widgets/default.png",
+            "name": "Blue",
+            "id": "001"
+        },
+        {
+            "img": "https://assets.appsmith.com/widgets/default.png",
+            "name": "Green",
+            "id": "002"
+        },
+        {
+            "img": "https://assets.appsmith.com/widgets/default.png",
+            "name": "Red",
+            "id": "003"
+        }
+    ],
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 10.4,
+    "displayName": "List",
+    "topRow": 14.400000000000002,
+    "bottomRow": 54.400000000000006,
     "pageSize": 1,
+    "parentRowSpace": 10,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
+    "hideCard": false,
+    "templateBottomRow": 16,
+    "mainContainerId": "nhsazp2yv7",
     "animateLoading": true,
+    "primaryKeys": "{{List2.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+    "parentColumnSpace": 6.4921875,
+    "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [
         {"key": "currentItemsView"},
         {"key": "selectedItemView"},
@@ -33,11 +62,12 @@
         "openParentPropertyPane": true,
         "minHeight": 400,
         "mobileRightColumn": 155.8125,
+        "useAutoLayout": false,
         "noPad": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
-        "positioning": "vertical",
+        "positioning": "fixed",
         "key": "f5ba5i2h37",
         "isDeprecated": false,
         "rightColumn": 155.8125,
@@ -51,23 +81,26 @@
         "renderMode": "CANVAS",
         "isLoading": false,
         "mobileTopRow": 0,
-        "responsiveBehavior": "fill",
-        "mobileLeftColumn": 0,
-        "flexLayers": [{"children": [{
-            "id": "nhsazp2yv7",
-            "align": "center"
-        }]}]
+        "mobileLeftColumn": 0
     }],
-    "flexVerticalAlignment": "end",
+    "gridType": "vertical",
+    "key": "etzgfz5q7q",
+    "backgroundColor": "transparent",
+    "isDeprecated": false,
+    "rightColumn": 64,
     "itemBackgroundColor": "#FFFFFF",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "widgetId": "ribslz3jh8",
+    "minWidth": 450,
     "isVisible": true,
+    "parentId": "246vbmzpmb",
     "tags": [
         "Suggested",
         "Display"
     ],
     "hasMetaWidgets": true,
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mainCanvasId": "qik7be6fs2",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "additionalStaticProps": [
@@ -76,49 +109,5 @@
         "prefixMetaWidgetId",
         "metaWidgetId"
     ],
-    "alignment": "start",
-    "mobileBottomRow": 54.400000000000006,
-    "currentItemsView": "{{[]}}",
-    "triggeredItemView": "{{{}}}",
-    "widgetName": "List2",
-    "listData": [
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Blue",
-            "id": "001"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Green",
-            "id": "002"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Red",
-            "id": "003"
-        }
-    ],
-    "displayName": "List",
-    "bottomRow": 44.4,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "templateBottomRow": 16,
-    "mobileRightColumn": 64,
-    "mainContainerId": "nhsazp2yv7",
-    "primaryKeys": "{{List2.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
-    "parentColumnSpace": 6.4921875,
-    "dynamicTriggerPathList": [],
-    "gridType": "vertical",
-    "key": "etzgfz5q7q",
-    "backgroundColor": "transparent",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "widgetId": "ribslz3jh8",
-    "minWidth": 450,
-    "parentId": "246vbmzpmb",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 14.400000000000002,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"
 }

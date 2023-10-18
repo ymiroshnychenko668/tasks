@@ -1,6 +1,5 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 36.599999999999994,
     "widgetName": "TaskAudio",
     "dynamicPropertyPathList": [],
     "displayName": "Audio Recorder",
@@ -9,12 +8,11 @@
         "sound recorder",
         "voice recorder"
     ],
-    "topRow": 23.400000000000002,
-    "bottomRow": 30.400000000000002,
+    "topRow": 29.599999999999998,
+    "bottomRow": 36.599999999999994,
     "parentRowSpace": 10,
     "type": "AUDIO_RECORDER_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 6.21875,
     "dynamicTriggerPathList": [{"key": "onRecordingComplete"}],
@@ -25,7 +23,6 @@
     ],
     "isDisabled": false,
     "key": "wzr0flzrtv",
-    "flexVerticalAlignment": "end",
     "onRecordingComplete": "{{showModal('OverwriteAudioConfirmation');}}",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -38,10 +35,6 @@
     "tags": ["External"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 29.599999999999998,
-    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "iconColor": "white",
-    "alignment": "start"
+    "iconColor": "white"
 }

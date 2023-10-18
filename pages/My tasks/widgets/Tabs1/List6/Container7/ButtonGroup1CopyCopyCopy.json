@@ -1,7 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 28.000000000000004,
-    "widgetName": "ButtonGroup1CopyCopy",
+    "widgetName": "ButtonGroup1CopyCopyCopy",
     "isCanvas": false,
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
@@ -9,8 +8,8 @@
         "click",
         "submit"
     ],
-    "topRow": 5.2,
-    "bottomRow": 9.2,
+    "topRow": 6,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
@@ -116,7 +115,6 @@
     },
     "type": "BUTTON_GROUP_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 5.98681640625,
     "dynamicTriggerPathList": [{"key": "groupButtons.groupButtontntugg18xo.onClick"}],
@@ -130,24 +128,19 @@
         {"key": "groupButtons.groupButton3.menuItems.menuItemuhvj9kme5m.iconColor"}
     ],
     "key": "j1r8pacinz",
-    "flexVerticalAlignment": "end",
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "ez9pcb9g6b",
+    "dynamicHeight": "FIXED",
+    "widgetId": "mdyws092ti",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "ybqgp66fp8",
+    "parentId": "j18pvtv0kq",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 24.000000000000004,
-    "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "buttonVariant": "PRIMARY",
-    "alignment": "start"
+    "buttonVariant": "PRIMARY"
 }

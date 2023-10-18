@@ -1,6 +1,5 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 8.8,
     "widgetName": "IconButton6",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -10,13 +9,12 @@
         "click",
         "submit"
     ],
-    "topRow": 0,
-    "bottomRow": 4,
+    "topRow": 4.8,
+    "bottomRow": 8.8,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
-    "leftColumn": 53.48665297741273,
+    "leftColumn": 53,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -24,7 +22,6 @@
     "iconSize": 24,
     "isDisabled": false,
     "key": "52x26lrrp1",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "iconName": "cross",
@@ -36,10 +33,6 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 4.8,
-    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 53.48665297741273,
-    "buttonVariant": "TERTIARY",
-    "alignment": "end"
+    "buttonVariant": "TERTIARY"
 }

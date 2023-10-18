@@ -1,6 +1,5 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 4,
     "widgetName": "Text24",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -13,7 +12,6 @@
     "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "overflow": "NONE",
     "dynamicTriggerPathList": [],
@@ -31,7 +29,7 @@
     "text": "{{currentItem.name}}",
     "key": "74xvtha7tx",
     "isDeprecated": false,
-    "rightColumn": 19.97051597051597,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "pihubcjf8z",
@@ -47,13 +45,9 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
     "textStyle": "HEADING",
-    "alignment": "start",
     "minDynamicHeight": 4
 }
