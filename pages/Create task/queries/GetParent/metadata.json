@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetTaskById",
+    "name": "GetParent",
     "datasource": {
       "name": "CrowApi",
       "pluginId": "restapi-plugin",
@@ -29,7 +29,7 @@
       "queryParameters": [
         {
           "key": "id",
-          "value": "{{this.param.taskId}}"
+          "value": "{{appsmith.URL.queryParams.parentId}}"
         }
       ],
       "bodyFormData": [],
@@ -60,16 +60,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.user",
-      "this.param.taskId"
+      "appsmith.URL.queryParams.parentId",
+      "appsmith.user"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-18T07:38:36Z"
+    "createdAt": "2023-10-19T05:54:36Z"
   },
-  "id": "Create task_GetTaskById",
+  "id": "Create task_GetParent",
   "deleted": false,
   "gitSyncId": "65155a937e237828359f5ecb_652f8b7ca702a670f41842c9"
 }

@@ -2,7 +2,10 @@
     "boxShadow": "none",
     "widgetName": "ButtonGroup1CopyCopyCopy",
     "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "groupButtons.groupButton1.onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtontntugg18xo.onClick"}
+    ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -14,7 +17,7 @@
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
-            "onClick": "{{navigateTo('Task', {\n  \"id\": currentItem.id,\n  backPage: \"My tasks\",\n  backName: \"My tasks\"\n}, 'SAME_WINDOW');}}",
+            "onClick": "{{\nstoreValue('backParams',{\n\tbackPage:'My tasks',\n\tbackName:Root.selectedTab\n});\nnavigateTo('Task', {\n  \"id\": currentItem.id\n}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "eye-open",

@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button10",
-    "onClick": "{{\nstoreValue('backParams',{backName: 'Task: '+CurrentTask.Task.id,id:CurrentTask.Task.id})\nnavigateTo('Create task', {\n\tbackPage:'Task',\n  \n\tparentId:CurrentTask.Task.id}, 'SAME_WINDOW');}}",
+    "onClick": "{{\nCurrentTask.prevBack = appsmith.store.backParams;\nstoreValue('backParams',\t{backName:'Task:'+CurrentTask.Task.id, \nurlParams:{id:CurrentTask.Task.id },\t\t\t\t\t\nbackPage:'Task',\t\t\t\t\t\t\t\t\t\t\t\tprevBack:CurrentTask.prevBack});\n\n\nnavigateTo('Create task', {\tparentId:CurrentTask.Task.id}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [
         {"key": "onClick"},

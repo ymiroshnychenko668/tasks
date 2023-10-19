@@ -80,7 +80,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('Create task', {backPage:'My tasks',backName:'My tasks'}, 'SAME_WINDOW');}}",
+            "onClick": "{{\nstoreValue('backParams',{\n\tbackPage:'My tasks',backName:Root.selectedTab\n});\nnavigateTo('Create task', {} ,'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "add",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

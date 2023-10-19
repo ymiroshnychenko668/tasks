@@ -19,7 +19,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "defaultTab"}
     ],
     "children": [
         {
@@ -138,7 +139,7 @@
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "rrtt6iv9e2",
-    "defaultTab": "Today",
+    "defaultTab": "{{appsmith.store.backParams.backName}}",
     "onTabSelected": "{{Tasks.refreshTabs();}}",
     "shouldShowTabs": true,
     "minWidth": 450,

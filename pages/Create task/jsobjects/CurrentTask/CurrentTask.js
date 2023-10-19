@@ -16,19 +16,26 @@ export default {
 		CreateTask.run().then(task =>{
 			navigateTo('Task', {id:task.id}, 'SAME_WINDOW');
 		}).catch((err)=>{
-			console.log(err)
+			console.log(err);
 			showAlert("Error task creation, please try agin later");
 		});
 		
 	},
 	
+	discardAndBack(){
+		let back = appsmith.store.backParams;
+		let backParams = _.isUndefined(appsmith.store.backParams.prevBack)?appsmith.store.backParams:appsmith.store.backParams.prevBack;
+		storeValue('backParams',backParams);
+		navigateTo(back.backPage, back.urlParams, 'SAME_WINDOW');
+	},
+	
 	getParentForSubtask(){
 		if(!_.isUndefined(appsmith.URL.queryParams.parentId)){
-			return GetTaskById.run({taskId:appsmith.URL.queryParams.parentId}).then((t)=>{
+			return GetParent.run().then((t)=>{
 				showAlert(t);
 				return 'Subtask for: '+t.id+'-'+t.name;
 			}).catch((err)=>{
-				showAlert(err)
+				showAlert('Parent with id '+appsmith.URL.queryParams.parentId+' not found')
 				return 'Parent with id '+appsmith.URL.queryParams.parentId+' not found';
 			});
 		}else{

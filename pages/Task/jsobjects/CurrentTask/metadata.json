@@ -18,6 +18,10 @@
       {
         "name": "TaskStatuses",
         "value": "undefined"
+      },
+      {
+        "name": "prevBack",
+        "value": "{}"
       }
     ],
     "userPermissions": []

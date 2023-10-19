@@ -64,7 +64,7 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo(appsmith.URL.queryParams.backPage, appsmith.store.backParams, 'SAME_WINDOW');}}",
+            "onClick": "{{\nCurrentTask.discardAndBack();}}",
             "iconName": "fast-backward",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",

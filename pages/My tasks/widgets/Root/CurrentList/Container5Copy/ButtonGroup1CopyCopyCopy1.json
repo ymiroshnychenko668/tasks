@@ -4,7 +4,8 @@
     "isCanvas": false,
     "dynamicPropertyPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtontntugg18xo.onClick"}
     ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
@@ -17,7 +18,7 @@
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
-            "onClick": "{{navigateTo('Task', {\n  \"id\": currentItem.id\n}, 'SAME_WINDOW');}}",
+            "onClick": "{{\nstoreValue('backParams',{backPage:'My tasks',backName:Root.selectedTab});\nnavigateTo('Task', {\n  \"id\": currentItem.id\n}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "eye-open",

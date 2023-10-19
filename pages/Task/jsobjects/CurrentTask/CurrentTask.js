@@ -2,6 +2,7 @@ export default {
 	Task:undefined,
 	NextStatuses:undefined,
 	TaskStatuses:undefined,
+	prevBack: {},
 	
 	getTaskStatuses(){
 		if(_.isUndefined(this.TaskStatuses)){
@@ -78,6 +79,11 @@ export default {
 	
 	deleteAudio(item){
 		deleteAudio.run(()=>{},(err)=>{showAlert('Error audio deleting. Please try again later')},{filename:item.filename})
+	},
+	
+	back(){
+		
+		navigateTo(appsmith.store.backParams.backPage, !_.isUndefined(appsmith.store.backParams.urlParams)?appsmith.store.backParams.urlParams:{}, 'SAME_WINDOW');
 	}
 	
 	
