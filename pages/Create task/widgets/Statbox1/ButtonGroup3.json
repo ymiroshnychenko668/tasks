@@ -13,13 +13,13 @@
         "click",
         "submit"
     ],
-    "topRow": 47.00000000001165,
+    "topRow": 47.000000000018936,
     "bottomRow": 51.00000000000146,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton3": {
             "onClick": "{{CurrentTask.saveAndGoToPage()}}",
-            "buttonType": "MENU",
+            "buttonType": "SIMPLE",
             "iconName": "floppy-disk",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -107,8 +107,8 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 48.000000000010196,
+    "originalTopRow": 47.00000000001748,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 52,
+    "originalBottomRow": 51,
     "buttonVariant": "PRIMARY"
 }

@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 780,
           "containerStyle": "none",
           "snapRows": 72,
           "parentRowSpace": 1,
@@ -95,8 +95,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "CurrentTask.getTask().status.id",
-                "appsmith.user"
+                "appsmith.user",
+                "CurrentTask.getTask().status.id"
               ],
               "timeoutInMillisecond": 10000
             }

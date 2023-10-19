@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 4,
+    "bottomRow": 6,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "animateLoading": true,
@@ -26,7 +26,7 @@
     "leftColumn": 0,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.name}}",
+    "text": "{{currentItem.id+' - '+currentItem.name}}",
     "key": "74xvtha7tx",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -35,7 +35,7 @@
     "widgetId": "pihubcjf8z",
     "minWidth": 450,
     "isVisible": true,
-    "fontStyle": "BOLD",
+    "fontStyle": "",
     "textColor": "#231F20",
     "version": 1,
     "parentId": "1b6a7qzyfd",
@@ -47,7 +47,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
+    "fontSize": "0.875rem",
     "textStyle": "HEADING",
     "minDynamicHeight": 4
 }

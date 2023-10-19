@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 25.200000000000003,
-    "bottomRow": 29.200000000000003,
+    "topRow": 18,
+    "bottomRow": 27,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton3": {

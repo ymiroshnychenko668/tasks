@@ -3,10 +3,11 @@
     "borderColor": "#E0DEDE",
     "widgetName": "Tabs1",
     "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "tabsObj.tablueddfklex.isVisible"}],
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "displayName": "Tabs",
     "topRow": 20,
-    "bottomRow": 103,
+    "bottomRow": 71,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -18,7 +19,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "tabsObj.tablueddfklex.isVisible"}
     ],
     "children": [
         {
@@ -26,7 +28,7 @@
             "mobileBottomRow": 1102,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 790,
+            "bottomRow": 550,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -62,7 +64,7 @@
             "mobileBottomRow": 468,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 790,
+            "bottomRow": 770,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -99,7 +101,7 @@
             "widgetName": "Canvas14",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 790,
+            "bottomRow": 470,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -134,7 +136,7 @@
             "widgetName": "Canvas16",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 790,
+            "bottomRow": 470,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -182,7 +184,7 @@
             "index": 2,
             "id": "tablueddfklex",
             "label": "Subtasks",
-            "isVisible": true
+            "isVisible": "{{!CurrentTask.Task.subtask}}"
         },
         "tab1": {
             "widgetId": "tgi4sqc0dw",
@@ -220,6 +222,6 @@
     "originalTopRow": 20,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 81,
+    "originalBottomRow": 71,
     "minDynamicHeight": 15
 }

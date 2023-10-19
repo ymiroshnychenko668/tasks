@@ -4,7 +4,8 @@
     "isCanvas": false,
     "dynamicPropertyPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"}
+        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItem2.onClick"}
     ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
@@ -60,10 +61,11 @@
                 },
                 "menuItem2": {
                     "backgroundColor": "#FFFFFF",
-                    "onClick": "",
+                    "onClick": "{{navigateTo('http://localhost/api/v1/logout')}}",
+                    "iconName": "log-in",
                     "widgetId": "",
                     "index": 1,
-                    "label": "Second Option",
+                    "label": "Logout",
                     "id": "menuItem2",
                     "isVisible": true,
                     "isDisabled": false
@@ -85,7 +87,7 @@
             "widgetId": "",
             "menuItems": {},
             "index": 1,
-            "label": "Add",
+            "label": "Create",
             "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
@@ -98,7 +100,8 @@
     "parentColumnSpace": 6.84375,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"}
+        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItem2.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [

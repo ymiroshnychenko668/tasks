@@ -64,13 +64,13 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo(appsmith.URL.queryParams.backPage, appsmith.store?.backParams, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo(appsmith.URL.queryParams.backPage, appsmith.store.backParams, 'SAME_WINDOW');}}",
             "iconName": "fast-backward",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "{{appsmith.URL.queryParams.backName}}",
+            "label": "{{appsmith.store.backParams.backName}}",
             "isVisible": true,
             "buttonType": "SIMPLE",
             "iconAlign": "left",

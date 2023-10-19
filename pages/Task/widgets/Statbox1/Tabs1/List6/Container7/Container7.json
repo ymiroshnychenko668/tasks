@@ -12,12 +12,12 @@
         "parent",
         "group"
     ],
-    "bottomRow": 12,
+    "bottomRow": 16,
     "dragDisabled": true,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "isDeletable": false,
-    "shouldScrollContents": false,
+    "shouldScrollContents": true,
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -29,7 +29,7 @@
         "widgetName": "Canvas26",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 176,
+        "bottomRow": 160,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,

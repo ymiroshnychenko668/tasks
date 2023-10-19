@@ -2,9 +2,12 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button10",
-    "onClick": "{{\nnavigateTo('Create task', {\n  back: 'Task',\n\tparentId:CurrentTask.Task.id\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{\nstoreValue('backParams',{backName: 'Task: '+CurrentTask.Task.id,id:CurrentTask.Task.id})\nnavigateTo('Create task', {\n\tbackPage:'Task',\n  \n\tparentId:CurrentTask.Task.id}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isDisabled"}
+    ],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,10 +25,11 @@
     "leftColumn": 39,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "isDisabled"}
     ],
     "text": "Create subtask",
-    "isDisabled": false,
+    "isDisabled": "{{CurrentTask.Task.subtask}}",
     "key": "56mwve4d5h",
     "isDeprecated": false,
     "rightColumn": 64,

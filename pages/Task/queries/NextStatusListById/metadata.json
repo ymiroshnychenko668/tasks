@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetTaskById",
+    "name": "NextStatusListById",
     "datasource": {
       "name": "CrowApi",
       "pluginId": "restapi-plugin",
@@ -13,11 +13,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Create task",
+    "pageId": "Task",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/getTaskById",
+      "path": "/nextStatusList",
       "headers": [
         {
           "key": "Authorization",
@@ -29,7 +29,7 @@
       "queryParameters": [
         {
           "key": "id",
-          "value": "{{this.param.taskId}}"
+          "value": "{{this.params.statusId}}"
         }
       ],
       "bodyFormData": [],
@@ -47,10 +47,10 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "headers[0].value"
+        "key": "path"
       },
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
         "key": "queryParameters[0].value"
@@ -61,15 +61,15 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.user",
-      "this.param.taskId"
+      "this.params.statusId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-18T07:38:36Z"
+    "createdAt": "2023-10-19T08:56:50Z"
   },
-  "id": "Create task_GetTaskById",
+  "id": "Task_NextStatusListById",
   "deleted": false,
-  "gitSyncId": "65155a937e237828359f5ecb_652f8b7ca702a670f41842c9"
+  "gitSyncId": "6530c495ded08a7dae1ac41c_6530ef52ded08a7dae1ac484"
 }

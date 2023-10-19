@@ -38,7 +38,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "function () {\n  if (!_.isUndefined(appsmith.URL.queryParams.parentId)) {\n    return GetTaskById.run({\n      taskId: appsmith.URL.queryParams.parentId\n    }).catch(err => {\n      showAlert('Error getting parent task. Please, try again later');\n      return 'Parent with id ' + appsmith.URL.queryParams.parentId + ' not found';\n    }).then(task => {\n      return 'Subtask for: ' + task.id + '-' + task.name;\n    });\n  } else {\n    let myPromise = new Promise(function (myResolve, myReject) {\n      let data;\n      myResolve();\n      myReject();\n    });\n    return myPromise.then(obj => {\n      return \"Task creation\";\n    });\n  }\n}"
+                "function () {\n  if (!_.isUndefined(appsmith.URL.queryParams.parentId)) {\n    return GetTaskById.run({\n      taskId: appsmith.URL.queryParams.parentId\n    }).then(t => {\n      showAlert(t);\n      return 'Subtask for: ' + t.id + '-' + t.name;\n    }).catch(err => {\n      showAlert(err);\n      return 'Parent with id ' + appsmith.URL.queryParams.parentId + ' not found';\n    });\n  } else {\n    let myPromise = new Promise(function (myResolve, myReject) {\n      let data;\n      myResolve();\n      myReject();\n    });\n    return myPromise.then(obj => {\n      return \"Task creation\";\n    });\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             },

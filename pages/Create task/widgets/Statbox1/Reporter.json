@@ -5,7 +5,7 @@
     "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
     "displayName": "Select",
     "labelText": "Reporter",
-    "topRow": 23.00000000002549,
+    "topRow": 23.000000000032774,
     "searchTags": ["dropdown"],
     "bottomRow": 29.60000000000364,
     "parentRowSpace": 10,
@@ -48,9 +48,9 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "optionLabel": "name",
-    "originalTopRow": 24.000000000024034,
+    "originalTopRow": 23.000000000031317,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 30.600000000002183,
+    "originalBottomRow": 29.600000000002183,
     "minDynamicHeight": 4
 }

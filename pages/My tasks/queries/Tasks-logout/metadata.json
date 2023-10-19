@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getTaskStatuses",
-    "fullyQualifiedName": "CurrentTask.getTaskStatuses",
+    "name": "logout",
+    "fullyQualifiedName": "Tasks.logout",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,10 +13,10 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Create task",
-    "collectionId": "Create task_CurrentTask",
+    "pageId": "My tasks",
+    "collectionId": "My tasks_Tasks",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -36,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Create task_CurrentTask.getTaskStatuses",
+  "id": "My tasks_Tasks.logout",
   "deleted": false,
-  "gitSyncId": "65155a937e237828359f5ecb_652680e7a702a670f41841f6"
+  "gitSyncId": "6530c495ded08a7dae1ac41c_6530dc83ded08a7dae1ac478"
 }

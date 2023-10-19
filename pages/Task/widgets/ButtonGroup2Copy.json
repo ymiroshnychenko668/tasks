@@ -50,7 +50,7 @@
                     "id": "menuItem4mq1te4aj1",
                     "label": "Delete",
                     "isDisabled": false,
-                    "isVisible": "{{CurrentTask?.Task?.reporter_username==appsmith.user.username}}"
+                    "isVisible": "{{CurrentTask.Task.reporter.username==appsmith.user.username}}"
                 },
                 "menuItemczlrmfd9z2": {
                     "onClick": "{{showModal('Leave_comment');}}",
