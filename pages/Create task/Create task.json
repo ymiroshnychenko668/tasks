@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2519.9999999999995,
+          "bottomRow": 588,
           "containerStyle": "none",
           "snapRows": 72,
           "parentRowSpace": 1,
@@ -53,11 +53,13 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Create task_Users",
-              "name": "Users",
+              "id": "Create task_UsersList",
+              "name": "UsersList",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.user"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

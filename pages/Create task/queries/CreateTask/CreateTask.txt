@@ -1,7 +1,6 @@
 {{
 {
 	name: TaskName.text,
-	description: Description.text,
 	start: StartDate.selectedDate,
 	end: EndDate.selectedDate,
 	assignee: Assignee.selectedOptionValue,
