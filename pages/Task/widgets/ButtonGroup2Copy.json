@@ -82,13 +82,13 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo(appsmith.URL.queryParams.back, {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo(appsmith.URL.queryParams.backPage, {}, 'SAME_WINDOW');}}",
             "iconName": "fast-backward",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Back",
+            "label": "{{appsmith.URL.queryParams.backName}}",
             "isVisible": true,
             "buttonType": "SIMPLE",
             "iconAlign": "left",
@@ -127,7 +127,8 @@
         {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButton3.buttonColor"},
         {"key": "groupButtons.groupButton3.menuItems.menuItem4mq1te4aj1.isVisible"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "groupButtons.groupButton1.label"}
     ],
     "key": "t6gg9vxczd",
     "orientation": "horizontal",

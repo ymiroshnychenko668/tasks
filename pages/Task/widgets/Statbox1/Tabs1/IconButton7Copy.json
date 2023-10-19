@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 24,
     "widgetName": "IconButton7Copy",
-    "onClick": "{{Assignee.setSelectedOption( UsersList.data.find(((user)=>{return user.username==appsmith.user.username})).id).then(()=>{\n\tCurrentTask.updateTaskProperty({name:'assignee',value:Assignee.selectedOptionValue});})}}",
+    "onClick": "{{Assignee.setSelectedOption( UsersList.data.find(((user)=>{return user.username==appsmith.user.username})).id).then(()=>{\n\tCurrentTask.updateTaskProperty({name:'assignee',value:Assignee.selectedOptionValue,alert:true});})}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Icon button",

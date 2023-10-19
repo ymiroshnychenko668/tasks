@@ -25,11 +25,18 @@ export default {
 	
 	
 	updateTaskProperty(params){
-		updateTicketProperty.run((task)=>{
+		
+		updateTicketProperty.run(params).then((task)=>{
 			this.Task = task;
-		},(err)=>{
-			"Error updating "+params.name
-		},params);
+			if(params.alert){
+				showAlert(params.name+' updated succesfully');
+			}
+		}).catch((err)=>{
+			showAlert("Error updating "+params.name);
+		});
+	},
+	test(){
+		this.updateTaskProperty({key:'status',value:null});
 	},
 	
 	

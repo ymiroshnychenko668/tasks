@@ -71,14 +71,14 @@
             },
             "index": 2,
             "iconAlign": "right",
-            "label": "More",
+            "label": "",
             "id": "groupButton3",
             "placement": "BETWEEN",
             "isVisible": true,
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('Create task', {back:'My tasks'}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Create task', {backPage:'My tasks',backName:'My tasks'}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "add",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

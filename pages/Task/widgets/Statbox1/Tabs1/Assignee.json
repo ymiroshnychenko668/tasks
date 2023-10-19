@@ -54,6 +54,6 @@
     "optionLabel": "name",
     "originalTopRow": 9,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{CurrentTask.updateTaskProperty({name:'assignee',value:Assignee.selectedOptionValue});}}",
+    "onOptionChange": "{{CurrentTask.updateTaskProperty({name:'assignee',value:Assignee.selectedOptionValue,alert:true});}}",
     "minDynamicHeight": 4
 }

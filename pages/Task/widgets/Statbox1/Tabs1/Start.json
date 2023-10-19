@@ -13,7 +13,7 @@
         {"key": "defaultDate"}
     ],
     "isDisabled": false,
-    "onDateSelected": "{{CurrentTask.updateTaskProperty({name:'start',value: End.selectedDate});}}",
+    "onDateSelected": "{{CurrentTask.updateTaskProperty({name:'start',value: End.selectedDate,alert:true});}}",
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

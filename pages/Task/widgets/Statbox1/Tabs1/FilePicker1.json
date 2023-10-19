@@ -9,10 +9,7 @@
     "topRow": 0,
     "bottomRow": 5,
     "parentRowSpace": 10,
-    "allowedFileTypes": [
-        "image/*",
-        "video/*"
-    ],
+    "allowedFileTypes": ["*"],
     "type": "FILE_PICKER_WIDGET_V2",
     "hideCard": false,
     "mobileRightColumn": 7,

@@ -55,6 +55,6 @@
     "optionLabel": "name",
     "originalTopRow": 13,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{updateTicketProperty.run(() => {\n  showAlert('Severity succesfully updated', '');\n}, () => {}, CurrentTask.updateTaskProperty({\n  name: \"severity\",\n  value: SeverityDropDown.selectedOptionValue\n})).then(() => {});}}",
+    "onOptionChange": "{{updateTicketProperty.run(() => {}, () => {}, CurrentTask.updateTaskProperty({\n  name: \"severity\",\n  value: SeverityDropDown.selectedOptionValue,\n  alert: true\n})).then(() => {});}}",
     "minDynamicHeight": 4
 }

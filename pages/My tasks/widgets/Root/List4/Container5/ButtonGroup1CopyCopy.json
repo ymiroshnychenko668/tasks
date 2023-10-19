@@ -17,7 +17,7 @@
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
-            "onClick": "{{navigateTo('Task', {\n  \"id\": currentItem.id\n}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Task', {\n  \"id\": currentItem.id,\n\tbackPage:\"My tasks\",\n\tbackName:\"My tasks\"\n}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "eye-open",

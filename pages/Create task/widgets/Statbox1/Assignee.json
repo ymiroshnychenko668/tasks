@@ -6,9 +6,9 @@
     "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
     "displayName": "Select",
     "labelText": "Assignee",
-    "topRow": 17,
+    "topRow": 16.000000000011653,
     "searchTags": ["dropdown"],
-    "bottomRow": 23,
+    "bottomRow": 22.000000000001457,
     "parentRowSpace": 10,
     "labelWidth": "10",
     "type": "SELECT_WIDGET",
@@ -49,9 +49,9 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "optionLabel": "name",
-    "originalTopRow": 16.000000000002913,
+    "originalTopRow": 17.000000000010196,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 22,
+    "originalBottomRow": 23,
     "minDynamicHeight": 4
 }

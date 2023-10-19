@@ -6,7 +6,7 @@
         "label": "Configure menu items",
         "id": "config",
         "config": {
-            "onClick": "{{CurrentTask.updateTaskProperty({name:'status',value:currentItem.available_next_statuses_id});}}",
+            "onClick": "{{CurrentTask.updateTaskProperty({name:'status',value:currentItem.id,alert:true});}}",
             "id": "config",
             "label": "{{MenuButton1.sourceData.map((currentItem, currentIndex) => ( currentItem.name))}}",
             "isVisible": true,

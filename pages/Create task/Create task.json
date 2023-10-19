@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 588,
+          "bottomRow": 578,
           "containerStyle": "none",
           "snapRows": 72,
           "parentRowSpace": 1,
@@ -39,16 +39,6 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "function () {\n  if (!_.isUndefined(appsmith.URL.queryParams.parentId)) {\n    return GetTaskById.run({\n      taskId: appsmith.URL.queryParams.parentId\n    }).catch(err => {\n      showAlert('Error getting parent task. Please, try again later');\n      return 'Parent with id ' + appsmith.URL.queryParams.parentId + ' not found';\n    }).then(task => {\n      return 'Subtask for: ' + task.id + '-' + task.name;\n    });\n  } else {\n    let myPromise = new Promise(function (myResolve, myReject) {\n      let data;\n      myResolve();\n      myReject();\n    });\n    return myPromise.then(obj => {\n      return \"Task creation\";\n    });\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Create task_TaskById",
-              "name": "TaskById",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.id"
               ],
               "timeoutInMillisecond": 10000
             },
