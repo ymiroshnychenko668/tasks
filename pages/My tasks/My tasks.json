@@ -53,14 +53,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "My tasks_MyTasks",
-              "name": "MyTasks",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "My tasks_Today",
               "name": "Today",
               "confirmBeforeExecute": false,

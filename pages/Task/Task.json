@@ -82,8 +82,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.user",
-                "appsmith.URL.queryParams.id"
+                "appsmith.URL.queryParams.id",
+                "appsmith.user"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -95,8 +95,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.user",
-                "CurrentTask.getTask().status.id"
+                "CurrentTask.getTask().status.id",
+                "appsmith.user"
               ],
               "timeoutInMillisecond": 10000
             }

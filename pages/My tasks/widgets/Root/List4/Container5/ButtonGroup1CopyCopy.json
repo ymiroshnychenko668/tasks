@@ -30,51 +30,6 @@
             "isDisabled": false,
             "isVisible": true
         },
-        "groupButton3": {
-            "buttonType": "SIMPLE",
-            "iconName": "more",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {
-                "menuItem1": {
-                    "backgroundColor": "#FFFFFF",
-                    "onClick": "",
-                    "iconName": "issue-closed",
-                    "widgetId": "",
-                    "index": 0,
-                    "label": "Log time",
-                    "id": "menuItem1",
-                    "isVisible": true,
-                    "isDisabled": false
-                },
-                "menuItem2": {
-                    "backgroundColor": "#FFFFFF",
-                    "onClick": "",
-                    "iconName": "comment",
-                    "widgetId": "",
-                    "index": 1,
-                    "label": "Comment",
-                    "id": "menuItem2",
-                    "isVisible": true,
-                    "isDisabled": false
-                },
-                "menuItem27pa6qc2t0": {
-                    "backgroundColor": "#fca5a5",
-                    "widgetId": "rhspoqx2be",
-                    "index": 2,
-                    "id": "menuItem27pa6qc2t0",
-                    "label": "Blocked",
-                    "isDisabled": false,
-                    "isVisible": true
-                }
-            },
-            "index": 3,
-            "label": "More",
-            "id": "groupButton3",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
         "groupButton1": {
             "onClick": "{{updateTicketProperty.run({\n  name: 'status',\n  value: 3,\n\ttaskId: currentItem.id\n}).then(Tasks.refreshTabs()); }}",
             "buttonType": "SIMPLE",
@@ -116,7 +71,6 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "groupButtons.groupButton3.buttonColor"},
         {"key": "groupButtons.groupButtontntugg18xo.buttonColor"}
     ],
     "key": "j1r8pacinz",
