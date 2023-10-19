@@ -9,8 +9,8 @@
         "click",
         "submit"
     ],
-    "topRow": 10,
-    "bottomRow": 16,
+    "topRow": 14,
+    "bottomRow": 19,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton3": {
@@ -62,6 +62,7 @@
             "isDisabled": false
         },
         "groupButton1": {
+            "onClick": "{{LogWorkDialog.logWorkDialog(currentItem.id, Tasks.refreshTabs);}}",
             "buttonType": "SIMPLE",
             "iconName": "array-timestamp",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -75,6 +76,7 @@
             "isDisabled": false
         },
         "groupButton2": {
+            "onClick": "{{showModal('')}}",
             "buttonType": "SIMPLE",
             "iconName": "comment",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -93,7 +95,10 @@
     "mobileRightColumn": 24,
     "animateLoading": true,
     "parentColumnSpace": 5.886436462402344,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton1.onClick"}
+    ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},

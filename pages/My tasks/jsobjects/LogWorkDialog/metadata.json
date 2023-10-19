@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "LogWorkDialog",
+    "pageId": "My tasks",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "success",
+        "value": "undefined"
+      },
+      {
+        "name": "error",
+        "value": "undefined"
+      },
+      {
+        "name": "logToTask",
+        "value": "undefined"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "My tasks_LogWorkDialog",
+  "deleted": false,
+  "gitSyncId": "6530c495ded08a7dae1ac41c_653113daded08a7dae1ac496"
+}

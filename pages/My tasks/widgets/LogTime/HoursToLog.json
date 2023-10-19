@@ -37,13 +37,13 @@
     "rightColumn": 46,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "nreqeqcytj",
+    "widgetId": "vvdsgn6plm",
     "showStepArrows": false,
     "minWidth": 450,
     "isVisible": true,
     "label": "Hours",
     "version": 2,
-    "parentId": "0p4ovcanlt",
+    "parentId": "4h06v6gyie",
     "tags": [
         "Suggested",
         "Inputs"

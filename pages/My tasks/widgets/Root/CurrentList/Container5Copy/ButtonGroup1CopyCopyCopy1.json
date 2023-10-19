@@ -13,8 +13,8 @@
         "click",
         "submit"
     ],
-    "topRow": 16,
-    "bottomRow": 22,
+    "topRow": 19,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtontntugg18xo": {
@@ -65,7 +65,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{updateTicketProperty.run({\n  name: 'status',\n  value: 2,\n\ttaskId: currentItem.id\n}).then(Tasks.refreshTabs()); }}",
+            "onClick": "{{updateTicketProperty.run(()=>{Tasks.refreshTabs()},()=>{},{\n  name: 'status',\n  value: 2,\n\ttaskId: currentItem.id\n}); }}",
             "buttonType": "SIMPLE",
             "iconName": "pause",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

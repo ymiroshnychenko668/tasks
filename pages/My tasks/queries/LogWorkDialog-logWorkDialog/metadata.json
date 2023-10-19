@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getTaskStatuses",
-    "fullyQualifiedName": "CurrentTask.getTaskStatuses",
+    "name": "logWorkDialog",
+    "fullyQualifiedName": "LogWorkDialog.logWorkDialog",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,14 +13,24 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Task",
-    "collectionId": "Task_CurrentTask",
+    "pageId": "My tasks",
+    "collectionId": "My tasks_LogWorkDialog",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "logToTask"
+        },
+        {
+          "name": "success"
+        },
+        {
+          "name": "error"
+        }
+      ]
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -35,9 +45,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-10T09:07:47Z"
+    "createdAt": "2023-10-19T11:34:25Z"
   },
-  "id": "Task_CurrentTask.getTaskStatuses",
+  "id": "My tasks_LogWorkDialog.logWorkDialog",
   "deleted": false,
-  "gitSyncId": "65155a937e237828359f5ecb_65251463a702a670f41841a8"
+  "gitSyncId": "6530c495ded08a7dae1ac41c_65311441ded08a7dae1ac498"
 }

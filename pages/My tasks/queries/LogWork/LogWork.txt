@@ -1,0 +1,7 @@
+{{
+{
+	'amount': HoursToLog.text,
+	'date':HoursToLogDate.selectedDate 
+	
+}
+}}

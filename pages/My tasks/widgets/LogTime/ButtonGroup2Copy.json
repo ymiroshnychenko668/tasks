@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "widgetName": "ButtonGroup2",
+    "widgetName": "ButtonGroup2Copy",
     "isCanvas": false,
     "dynamicPropertyPathList": [
         {"key": "groupButtons.groupButton3.onClick"},
@@ -98,11 +98,11 @@
     "orientation": "vertical",
     "isDeprecated": false,
     "rightColumn": 62,
-    "widgetId": "4v9129m5h3",
+    "widgetId": "1mzrt2q1qq",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "0p4ovcanlt",
+    "parentId": "4h06v6gyie",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,

@@ -10,7 +10,7 @@
     "displayName": "List",
     "topRow": 37,
     "bottomRow": 55,
-    "pageSize": 4,
+    "pageSize": 1,
     "parentRowSpace": 10,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,

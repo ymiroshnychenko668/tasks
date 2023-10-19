@@ -4,12 +4,7 @@ export default {
 	TaskStatuses:undefined,
 	prevBack: {},
 	
-	getTaskStatuses(){
-		if(_.isUndefined(this.TaskStatuses)){
-			this.TaskStatuses = TaskStatuses.run();
-		}
-		return this.TaskStatuses;
-	},
+
 	getTask(){
 		if(_.isUndefined(this.Task)){
 			this.Task = GetTask.run((task)=>{
@@ -41,13 +36,6 @@ export default {
 	},
 	
 	
-	
-	getCurrentStatus(){
-		return this.getTaskStatuses().then((statuses)=>{
-				return statuses.filter((status)=> status.id == this.getTask().status_id).at(0);
-		});
-	},
-	
 	saveAudio(){
 		SaveAudio.run((resp)=>{
 			showAlert('Audio saved');
@@ -56,16 +44,7 @@ export default {
 			showAlert('Error saving audio, please try again later');
 		}); 
 },
-	logWork(){
-		LogWork.run((resp)=>{
-			this.Task = resp;
-			showAlert(HoursToLog.text+' hours was logged');
-			closeModal('LogTime')
-		},(resp)=>{
-			showAlert('Error logging hours. Please, try again later');
-			closeModal('LogTime')
-		});
-	},
+	
 	deleteTimelog(id){
 			updateTicketProperty.run((task)=>{
 			this.Task = task;

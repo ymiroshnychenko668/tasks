@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getCurrentStatus",
-    "fullyQualifiedName": "CurrentTask.getCurrentStatus",
+    "name": "logWork",
+    "fullyQualifiedName": "LogWorkDialog.logWork",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Task",
-    "collectionId": "Task_CurrentTask",
+    "pageId": "My tasks",
+    "collectionId": "My tasks_LogWorkDialog",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,6 +23,7 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-10T09:03:25Z"
+    "createdAt": "2023-10-19T11:32:42Z"
   },
-  "id": "Task_CurrentTask.getCurrentStatus",
+  "id": "My tasks_LogWorkDialog.logWork",
   "deleted": false,
-  "gitSyncId": "65155a937e237828359f5ecb_6525135da702a670f41841a4"
+  "gitSyncId": "6530c495ded08a7dae1ac41c_653113daded08a7dae1ac493"
 }
