@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "CommentDialog",
+    "pageId": "Task",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "taskId",
+        "value": "[]"
+      },
+      {
+        "name": "success",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Task_CommentDialog",
+  "deleted": false,
+  "gitSyncId": "6530c495ded08a7dae1ac41c_653128added08a7dae1ac4ac"
+}
